@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<table name="SST_ARTICLE_STATES" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_ARTICLE_STATES%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="ARTICLE_VALID"></field>
+<field name="DOCUMENT_CONTROL_LEVEL"></field>
+</fields>
+</table>

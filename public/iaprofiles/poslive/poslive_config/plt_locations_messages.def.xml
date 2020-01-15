@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<table name="PLT_LOCATIONS_MESSAGES" primary_key="ID" unique_fields="" ordered_by="" static_filter="%FILTER_PLT_LOCATIONS_MESSAGES%">
+<fields>
+<field name="ID"></field>
+<field name="POS_LOCATION_ID"></field>
+<field name="MESSAGE_TYPE"></field>
+<field name="MESSAGE_TEXT"></field>
+<field name="DETAIL_MESSAGE"></field>
+</fields>
+</table>

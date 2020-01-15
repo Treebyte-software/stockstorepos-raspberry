@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<table name="SST_CAUSALS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_CAUSALS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="DOCUMENT_TYPE_ID"></field>
+<field name="VISIBILITY_LEVEL"></field>
+<field name="APPLICABLE_TO"></field>
+<field name="ALLOW_COMPANY_IN_ROWS"></field>
+<field name="LINKED_CAUSAL_ID"></field>
+<field name="MANDATORY_EXTERNAL_CODE"></field>
+<field name="ALLOW_DIRECT_CREATION"></field>
+<field name="CAUSAL_TYPE"></field>
+<field name="IS_SYSTEM"></field>
+<field name="ENABLED"></field>
+<field name="BEFORE_CREATE_DOC_PROCEDURE"></field>
+<field name="AFTER_CREATE_DOC_PROCEDURE"></field>
+<field name="BEFORE_STATE_PROCEDURE"></field>
+<field name="AFTER_STATE_PROCEDURE"></field>
+<field name="BEFORE_TRANS_PROCEDURE"></field>
+<field name="AFTER_TRANS_PROCEDURE"></field>
+<field name="ICON" external_file="false"></field>
+<field name="EXTERNAL_CODE_FORMAT"></field>
+<field name="OPPOSITE_CAUSAL_ID"></field>
+</fields>
+<child_tables>
+<table name="SST_CAUSAL_OPERATIONS" primary_key="ID" unique_fields="CAUSAL_ID,ORDER_NUM" ordered_by="ORDER_NUM">
+<fields>
+<field name="ID"></field>
+<field name="ORDER_NUM"></field>
+<field name="CAUSAL_ID" parent_field="ID"></field>
+<field name="BEFORE_STATE_ID"></field>
+<field name="STATE_ID"></field>
+<field name="STOCK_FIELD_ID"></field>
+<field name="TASK"></field>
+<field name="PARAMS"></field>
+<field name="CONDITION"></field>
+<field name="IS_SYSTEM"></field>
+</fields>
+</table>
+</child_tables>
+</table>

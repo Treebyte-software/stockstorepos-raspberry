@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<table name="PLT_HOST_LOCATIONS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_PLT_HOST_LOCATIONS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="HOST_NAME"></field>
+<field name="PL_USER"></field>
+<field name="PL_PWD"></field>
+<field name="PL_PORT"></field>
+</fields>
+</table>

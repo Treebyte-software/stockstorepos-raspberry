@@ -1,0 +1,21 @@
+<table name="SST_POS_SYSTEM_SETTINGS" primary_key="ID" unique_fields="POS_ID,SHOP_ID" ordered_by="" static_filter="(%FILTER_SST_POS_SYSTEM_SETTINGS%) AND (pos_id = (SELECT pos_id FROM plv_pos_locations WHERE location_name = '%FILTER_LOCATION_NAME%'))">
+<fields>
+<field name="ID"></field>
+<field name="SHOP_ID"></field>
+<field name="POS_ID"></field>
+<field name="NUM_DECIMALS"></field>
+<field name="ROUND_FACTOR"></field>
+<field name="CURRENCY_NUM_DECIMALS"></field>
+<field name="CURRENCY_ROUND_FACTOR"></field>
+<field name="ANNULL_ROW_ACTIVITY_ID"></field>
+<field name="SAVE_TRANS_ACTIVITY_ID"></field>
+<field name="BARCODE_ACTIVITY_ID"></field>
+<field name="EXTERNAL_DOC_PATH"></field>
+<field name="EXTERNAL_DOC_USER"></field>
+<field name="EXTERNAL_DOC_PWD"></field>
+<field name="MAX_BILL_AMOUNT"></field>
+<field name="MIN_CARD_ISSUE_AMOUNT"></field>
+<field name="MIN_CARD_CHARGE_AMOUNT"></field>
+<field name="INI_SETTINGS"></field>
+</fields>
+</table>

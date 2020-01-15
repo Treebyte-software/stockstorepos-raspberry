@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<table name="SST_SHIPPING_ALLOWED_LINKS" primary_key="ID" unique_fields="SERVICE_ARTICLE_ID, ARTICLE_ID, ALLOWED_ARTICLE_ID" ordered_by="ID" deletion_type="all">
+<fields>
+<field name="ID"></field>
+<field name="SERVICE_ARTICLE_ID"></field>
+<field name="ARTICLE_ID"></field>
+<field name="ALLOWED_ARTICLE_ID"></field>
+</fields>
+</table>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="21/04/2017 17:37:58">
+<recordcount>1</recordcount>
+<record ID="107" CODE="015" PWD="af032fbcb07ffc7bd2569d86ae4ce1f5" PERMISSION_GROUP_ID="5" DESCRIPTION="Magna" CARD_NUM="015" NOTES="" STREET="" ZIP_CODE="" CITY="" COUNTRY="" NATION="" PHONE_A="" PHONE_B="" FAX="" INTERNET="" EMAIL="" BIRTH_DATE="" ENGAGEMENT_DATE="" RESIGNATION_DATE="" FISCAL_CODE="" LANGUAGE_CODE="16" IS_SYSTEM="0" IMAGE="" RECENTS_TASKS_NUMBER="10" FAVORITES_TASKS_NUMBER="10" APPLICATION_STYLE="1" VISIBLE_IN_LIST="1" AUTO_SAVE_ENABLED="0">
+<child_records>
+<table name="SST_WAREHOUSE_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_COMPANY_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="106" OPERATOR_ID="107" COMPANY_ID="24"/>
+</table>
+</child_records>
+</record>
+</table>

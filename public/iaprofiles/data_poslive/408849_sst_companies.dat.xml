@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_COMPANIES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="15/01/2018 18:06:46">
+<recordcount>1</recordcount>
+<record ID="24" CODE="100" DESCRIPTION="I Sorrisi S.r.l. - Modena" COMPANY_TYPE_ID="3" PARENT_COMPANY_ID="1" COUNTRY_ID="7" CURRENCY_ID="1" AREA_ID="" HEAD_OFFICE="0" NOTES="" STREET="Via Cesare Pavese 2/A" ZIP_CODE="41014" CITY="Castelvetro" COUNTRY="MO" NATION="Italia" PHONE_A="059/8676971" PHONE_B="" FAX="" INTERNET="http://www.sostaemiliana.it" EMAIL="modena@sostaemiliana.it" EAN_PREFIX="" EAN_TRADEMARK_OWNER_CODE="" FINANCIAL_YEAR_START="20170101000000" FINANCIAL_YEAR_END="20221231000000" HEADQUARTERS="" IS_VALID="1">
+<child_records>
+<table name="SST_WAREHOUSES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="41" CODE="100" DESCRIPTION="Mag. MO" COMPANY_ID="24" DEFAULT_WAREHOUSE="1" IS_VALID="1"/>
+</table>
+<table name="SST_BANKS_ACCOUNTS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="5" COMPANY_ID="24" BANK_NAME="" BANK_LOCATION="" ADDRESS="" IBAN_COUNTRY="" IBAN_CIN_EURO="" BBAN_CIN="" BBAN_ABI="" BBAN_CAB="" BBAN_NUMBER="" BANK_ACCOUNT="" ENABLED="1"/>
+</table>
+</child_records>
+</record>
+</table>

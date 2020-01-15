@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<table name="SST_POS_LAYOUTS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_POS_LAYOUTS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="NOTES"></field>
+<field name="LAYOUT_FILE" external_file="false"></field>
+<field name="IS_SYSTEM"></field>
+</fields>
+</table>

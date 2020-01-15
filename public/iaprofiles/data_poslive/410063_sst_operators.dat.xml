@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="08/03/2018 11:16:44">
+<recordcount>1</recordcount>
+<record ID="96" CODE="005" PWD="ce08becc73195df12d99d761bfbba68d" PERMISSION_GROUP_ID="5" DESCRIPTION="Arianda" CARD_NUM="005" NOTES="" STREET="" ZIP_CODE="" CITY="" COUNTRY="" NATION="" PHONE_A="" PHONE_B="" FAX="" INTERNET="" EMAIL="" BIRTH_DATE="" ENGAGEMENT_DATE="" RESIGNATION_DATE="20170616000000" FISCAL_CODE="" LANGUAGE_CODE="16" IS_SYSTEM="0" IMAGE="" RECENTS_TASKS_NUMBER="10" FAVORITES_TASKS_NUMBER="10" APPLICATION_STYLE="1" VISIBLE_IN_LIST="0" AUTO_SAVE_ENABLED="0">
+<child_records>
+<table name="SST_WAREHOUSE_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_COMPANY_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="96" OPERATOR_ID="96" COMPANY_ID="24"/>
+</table>
+</child_records>
+</record>
+</table>

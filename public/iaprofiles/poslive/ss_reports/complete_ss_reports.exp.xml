@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings multiple="true" enabled="true" log_file="%LOG_PATH%\complete_ss_reports.log.xml">
+<profiles>
+<profile filename="sst_reports_categories.exp.xml" description="Report categories" />
+<profile filename="sst_datasources.exp.xml" description="Datasources" />
+<profile filename="sst_datasource_details.exp.xml" description="Datasource details" />
+<profile filename="sst_reports.exp.xml" description="Reports" />
+<profile filename="sst_data_feeds.exp.xml" description="Data feeds" />
+<profile filename="sst_articles_reports.exp.xml" description="Articles reports" />
+<profile filename="sst_carriers_reports.exp.xml" description="Carriers reports" />
+<profile filename="sst_production_centers_reports.exp.xml" description="Production centers reports" />
+</profiles>
+</settings>

@@ -1,0 +1,25 @@
+<?xmlversion = "1.0"?>
+<table name="SST_DATASOURCES" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_DATASOURCES%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="USE_TYPE"></field>
+<field name="IS_SYSTEM"></field>
+</fields>
+<child_tables>
+<table name="SST_DATASOURCE_PARAMETERS" primary_key="ID" unique_fields="DATASOURCE_ID, VARIABLE_NAME" ordered_by="DATASOURCE_ID,ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="DATASOURCE_ID" parent_field="ID"></field>
+<field name="PARAM_NAME"></field>
+<field name="PARAM_TYPE_ID"></field>
+<field name="VARIABLE_NAME"></field>
+<field name="DEFAULT_VALUE"></field>
+<field name="MANDATORY"></field>
+<field name="IS_VISIBLE"></field>
+<field name="IS_SYSTEM"></field>
+</fields>
+</table>
+</child_tables>
+</table>

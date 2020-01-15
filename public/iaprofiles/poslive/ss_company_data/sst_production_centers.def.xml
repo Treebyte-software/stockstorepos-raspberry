@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<table name="SST_PRODUCTION_CENTERS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_PRODUCTION_CENTERS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="NOTES"></field>
+<field name="SHOP_ID"></field>
+</fields>
+</table>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_CUSTOMERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="23/02/2018 13:54:25">
+<recordcount>1</recordcount>
+<record ID="693" CODE="100C01_00071" DESCRIPTION="FILE42" NOTES="" STREET="VIA GHETTO18" ZIP_CODE="" CITY="" COUNTRY="" NATION="" INVOICE_ADDRESS="" FISCAL_CODE_A="01818390385" FISCAL_CODE_B="PBRLNLT68D58F240W" PHONE_A="" PHONE_B="" FAX="" INTERNET="" EMAIL="" ANNIVERSARY="" COUNTRY_ID="7" AREA_ID="" SALE_PRICE_LIST_ID="" IS_VALID="1" REFERENCE_CUSTOMER_ID="" CUSTOMER_GROUP_ID="" PAYMENT_CONDITION_ID="" BUSINESS_UNIT_ID="" CUSTOMER_USER_FIELD_A="" CUSTOMER_USER_FIELD_B="" CUSTOMER_USER_FIELD_C="" CUSTOMER_USER_FIELD_D="" CUSTOMER_USER_FIELD_E="">
+<child_records>
+<table name="SST_CUSTOMERS_CARDS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="691" CUSTOMER_ID="693" CARD_NUM="100C01_00071" ENABLED="1" CARD_TYPE_ID="1" CARD_BALANCE="        0.00000" ISSUE_SHOP_ID="22" CURRENCY_ID="1" BLACKLISTED="0" BLACKLIST_OPERATOR_ID="" BLACKLIST_DATE="" BLACKLIST_NOTES="" ISSUING_DATE="" EXPIRATION_DATE=""/>
+</table>
+<table name="SST_BANKS_ACCOUNTS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+</table>

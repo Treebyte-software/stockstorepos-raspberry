@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<table name="SST_STOCK_FIELDS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_STOCK_FIELDS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="FIELD_TYPE"></field>
+<field name="RESET_ON_CLOSING"></field>
+<field name="CREATE_IMMEDIATLY"></field>
+<field name="IS_SYSTEM"></field>
+<field name="ENABLED"></field>
+<field name="VISIBILITY_LEVEL"></field>
+<field name="VISIBLE_IN_POS"></field>
+</fields>
+</table>

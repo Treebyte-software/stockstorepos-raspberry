@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_MENUS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="28/03/2018 12:23:19">
+<recordcount>1</recordcount>
+<record ID="58" CODE="DM0011" DESCRIPTION="Dolce" NOTES="" IS_VALID="1" PRINT_ITEMS="0">
+<child_records>
+<table name="SST_MENUS_VALIDITIES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_MENUS_DETAILS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="517" MENU_ID="58" SALE_ARTICLE_ID="1834"/>
+<record ID="518" MENU_ID="58" SALE_ARTICLE_ID="1837"/>
+<record ID="519" MENU_ID="58" SALE_ARTICLE_ID="1959"/>
+<record ID="520" MENU_ID="58" SALE_ARTICLE_ID="1983"/>
+<record ID="521" MENU_ID="58" SALE_ARTICLE_ID="2044"/>
+<record ID="522" MENU_ID="58" SALE_ARTICLE_ID="2045"/>
+<record ID="524" MENU_ID="58" SALE_ARTICLE_ID="2046"/>
+</table>
+</child_records>
+</record>
+</table>

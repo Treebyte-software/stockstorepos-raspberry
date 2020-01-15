@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<table name="SST_MOBILE_POINT_OF_SALES" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_MOBILE_POINT_OF_SALES%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="SHOP_ID"></field>
+<field name="POS_ID"></field>
+</fields>
+</table>

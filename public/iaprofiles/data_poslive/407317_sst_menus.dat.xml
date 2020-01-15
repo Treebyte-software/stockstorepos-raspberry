@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_MENUS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="13/12/2017 12:28:52">
+<recordcount>4</recordcount>
+<record ID="48" CODE="DM0001" DESCRIPTION="Degustazione Dolce" NOTES="" IS_VALID="1" PRINT_ITEMS="0">
+<child_records>
+<table name="SST_MENUS_VALIDITIES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_MENUS_DETAILS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="458" MENU_ID="48" SALE_ARTICLE_ID="2011"/>
+<record ID="459" MENU_ID="48" SALE_ARTICLE_ID="2012"/>
+<record ID="460" MENU_ID="48" SALE_ARTICLE_ID="2013"/>
+</table>
+</child_records>
+</record>
+<record ID="49" CODE="DM0002" DESCRIPTION="Tigella Dolce 1" NOTES="" IS_VALID="1" PRINT_ITEMS="0">
+<child_records>
+<table name="SST_MENUS_VALIDITIES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_MENUS_DETAILS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="434" MENU_ID="49" SALE_ARTICLE_ID="1817"/>
+<record ID="435" MENU_ID="49" SALE_ARTICLE_ID="1818"/>
+<record ID="436" MENU_ID="49" SALE_ARTICLE_ID="1819"/>
+<record ID="437" MENU_ID="49" SALE_ARTICLE_ID="1820"/>
+<record ID="438" MENU_ID="49" SALE_ARTICLE_ID="1821"/>
+<record ID="439" MENU_ID="49" SALE_ARTICLE_ID="1822"/>
+<record ID="440" MENU_ID="49" SALE_ARTICLE_ID="1823"/>
+<record ID="441" MENU_ID="49" SALE_ARTICLE_ID="1824"/>
+</table>
+</child_records>
+</record>
+<record ID="50" CODE="DM0003" DESCRIPTION="Tigella Dolce 2" NOTES="" IS_VALID="1" PRINT_ITEMS="0">
+<child_records>
+<table name="SST_MENUS_VALIDITIES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_MENUS_DETAILS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="442" MENU_ID="50" SALE_ARTICLE_ID="1817"/>
+<record ID="443" MENU_ID="50" SALE_ARTICLE_ID="1818"/>
+<record ID="444" MENU_ID="50" SALE_ARTICLE_ID="1819"/>
+<record ID="445" MENU_ID="50" SALE_ARTICLE_ID="1820"/>
+<record ID="446" MENU_ID="50" SALE_ARTICLE_ID="1821"/>
+<record ID="447" MENU_ID="50" SALE_ARTICLE_ID="1822"/>
+<record ID="448" MENU_ID="50" SALE_ARTICLE_ID="1823"/>
+<record ID="449" MENU_ID="50" SALE_ARTICLE_ID="1824"/>
+</table>
+</child_records>
+</record>
+<record ID="51" CODE="DM0004" DESCRIPTION="Tigella Dolce 3" NOTES="" IS_VALID="1" PRINT_ITEMS="0">
+<child_records>
+<table name="SST_MENUS_VALIDITIES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_MENUS_DETAILS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="450" MENU_ID="51" SALE_ARTICLE_ID="1817"/>
+<record ID="451" MENU_ID="51" SALE_ARTICLE_ID="1818"/>
+<record ID="452" MENU_ID="51" SALE_ARTICLE_ID="1819"/>
+<record ID="453" MENU_ID="51" SALE_ARTICLE_ID="1820"/>
+<record ID="454" MENU_ID="51" SALE_ARTICLE_ID="1821"/>
+<record ID="455" MENU_ID="51" SALE_ARTICLE_ID="1822"/>
+<record ID="456" MENU_ID="51" SALE_ARTICLE_ID="1823"/>
+<record ID="457" MENU_ID="51" SALE_ARTICLE_ID="1824"/>
+</table>
+</child_records>
+</record>
+</table>

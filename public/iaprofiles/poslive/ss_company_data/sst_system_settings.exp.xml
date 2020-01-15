@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<settings>
+<profile description="sst_system_settings" last_execution="01/09/2009 15.07.05" enabled="true" />
+<host_db type="%LOCALHOST_DB_TYPE%" connection="%LOCALHOST_DB_CONNECTION%" dictionary="%LOCALHOST_DICTIONARY%" structure="sst_system_settings.def.xml" />
+<data_file name="%DATA_PATH%\sst_system_settings.dat.xml" append_export="true" />
+<log_file name="%LOG_PATH%\sst_system_settings.log.xml" append="true" />
+<options bulk_import="false" generate_ids="false" exists_behaviour="pkey" on_detail_error="invalidate_current" />
+</settings>

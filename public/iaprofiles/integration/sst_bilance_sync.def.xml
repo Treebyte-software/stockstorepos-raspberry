@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<table name="SST_ARTICLES" primary_key="ID" unique_fields="CODE" ordered_by="ID" static_filter="((FASTCODE <> '') OR (FASTCODE IS NOT NULL)) AND IS_VALID=1">
+<fields>
+<field name="ID"></field>
+<field name="FASTCODE"></field>
+<field name="REFERENCE_PRICE"></field>
+<field name="DESCRIPTION"></field>
+<!-- field name="DESCRIPTION" alias="BARCODE" user_field_mandatory="true" user_type="STRING" user_query="SELECT MIN(BARCODE) FROM sst_barcodes WHERE article_id = :ID AND BARCODE LIKE '21%'" user_parameters="ID" user_parameters_types="INTEGER"></field -->
+<field name="DESCRIPTION" alias="BARCODE" user_field_mandatory="true" user_type="STRING" user_query="SELECT COALESCE(MIN(BARCODE),'0000000') FROM sst_barcodes WHERE article_id = :ID" user_parameters="ID" user_parameters_types="INTEGER"></field>
+<field name="REFERENCE_PRICE" alias="PRICE"></field>
+
+<field name="MEAS_UNIT_ID" alias="MEAS_UNIT_CODE" source_table="SST_MEAS_UNITS" lookup_key="ID" return_fields="CODE">
+<!-- field name="MEAS_UNIT_ID" alias="UNIMIS" user_field_mandatory="true" user_type="STRING" user_query="SELECT CASE WHEN :MEAS_UNIT_CODE = 'PZ' THEN 'M' ELSE '@' END FROM RDB$DATABASE;" user_parameters="MEAS_UNIT_CODE" user_parameters_types="STRING"></field -->
+
+<field name="MEAS_UNIT_ID" alias="UNIMIS" user_field_mandatory="true" user_type="STRING" user_query="SELECT CASE WHEN CODE = 'PZ' THEN 'M' ELSE '@' END FROM SST_MEAS_UNITS WHERE ID = :MEAS_UNIT_ID" user_parameters="MEAS_UNIT_ID" user_parameters_types="INTEGER"></field>
+
+<field name="LAST_UPDATE_DATE" last_value="20140923120734"></field>
+<!-- field name="PRICE" user_field_mandatory="true" user_type="FLOAT" user_query="SELECT price FROM sst_sale_article_prices WHERE sale_price_list_id=(SELECT id FROM sst_sale_price_lists WHERE CODE = 'NEG') AND sale_article_id = :ID" user_parameters="ID" user_parameters_types="INTEGER"></field -->
+</fields>
+<!--
+<child_tables>
+<table name="SST_SALE_BARCODES" primary_key="ID" unique_fields="ID" ordered_by="SALE_ARTICLE_ID" static_filter="((BARCODE <> '') AND BARCODE IS NOT NULL)">
+<fields>
+<field name="SALE_ARTICLE_ID" parent_field="CODE"></field>
+<field name="BARCODE"></field>
+</fields>
+</table>
+</child_tables>-->
+<tables>

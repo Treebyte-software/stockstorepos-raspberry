@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings multiple="true" enabled="true" log_file="%LOG_PATH%\complete_ss_system_data.log.xml">
+<profiles>
+<profile filename="sst_devices.imp.xml" description="Devices" />
+<profile filename="sst_layouts.imp.xml" description="Layouts" />
+<profile filename="sst_parameters_types.imp.xml" description="Parameters types" />
+<profile filename="sst_sql_statements.imp.xml" description="SQL statements" />
+</profiles>
+</settings>

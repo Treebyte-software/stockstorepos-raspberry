@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<table name="SST_SALE_PRICE_LIST_OVERRIDES" primary_key="ID" unique_fields="" ordered_by="" static_filter="%FILTER_SST_SALE_PRICE_LIST_OVERRIDES%">
+<fields>
+<field name="ID"></field>
+<field name="SHOP_ID"></field>
+<field name="VALIDITY_DATE"></field>
+<field name="EXPIRATION_DATE"></field>
+<field name="VALIDITY_WEEKDAYS"></field>
+<field name="START_TIME_MINUTES"></field>
+<field name="END_TIME_MINUTES"></field>
+<field name="SALE_PRICE_LIST_ID"></field>
+<field name="SUBST_PRICE_LIST_ID"></field>
+</fields>
+</table>

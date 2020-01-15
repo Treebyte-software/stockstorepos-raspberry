@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_GROUPS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="17/11/2017 12:27:54">
+<recordcount>1</recordcount>
+<record CODE="310" INTERNAL_CODE="90000110-310" DESCRIPTION="Caffe" NOTES="" PARENT_GROUP_ID="82" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="83">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+</table>

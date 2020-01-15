@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<settings>
+<profile description="sst_sale_headings_new_sale_type" last_execution="21/11/2008 17.44.45" enabled="true" />
+<local_db type="%LOCALHOST_DB_TYPE%" connection="%LOCALHOST_DB_CONNECTION%" dictionary="%LOCALHOST_DICTIONARY%" structure="sst_sale_headings_new_sale_type.def.xml" />
+<data_file name="%DATA_PATH%\sst_sale_headings_new_sale_type.dat.xml" append_export="true" />
+<log_file name="%LOG_PATH%\sst_sale_headings_new_sale_type.log.xml" append="true" />
+<options bulk_import="false" generate_ids="true" exists_behaviour="ukey" on_detail_error="invalidate_all" />
+</settings>

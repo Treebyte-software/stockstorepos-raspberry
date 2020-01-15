@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<table name="SST_CARRIERS" primary_key="ID" unique_fields="CODE" ordered_by="ID" static_filter="%FILTER_SST_CARRIERS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="NOTES"></field>
+<field name="WEB_URL"></field>
+<field name="TAXABLE_WEIGHT_FACTOR"></field>
+</fields>
+<child_tables>
+<table name="SST_CARRIERS_CRITERIA" primary_key="ID" unique_fields="CARRIER_ID, CRITERIA_ID" ordered_by="ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="CARRIER_ID" parent_field="ID"></field>
+<field name="CRITERIA_ID"></field>
+</fields>
+</table>
+</child_tables>
+</table>

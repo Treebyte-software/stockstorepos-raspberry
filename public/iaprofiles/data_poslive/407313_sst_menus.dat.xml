@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_MENUS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="13/12/2017 12:26:55">
+<recordcount>1</recordcount>
+<record ID="49" CODE="DM0002" DESCRIPTION="Tigella Dolce 1" NOTES="" IS_VALID="0" PRINT_ITEMS="0">
+<child_records>
+<table name="SST_MENUS_VALIDITIES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_MENUS_DETAILS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="434" MENU_ID="49" SALE_ARTICLE_ID="1817"/>
+<record ID="435" MENU_ID="49" SALE_ARTICLE_ID="1818"/>
+<record ID="436" MENU_ID="49" SALE_ARTICLE_ID="1819"/>
+<record ID="437" MENU_ID="49" SALE_ARTICLE_ID="1820"/>
+<record ID="438" MENU_ID="49" SALE_ARTICLE_ID="1821"/>
+<record ID="439" MENU_ID="49" SALE_ARTICLE_ID="1822"/>
+<record ID="440" MENU_ID="49" SALE_ARTICLE_ID="1823"/>
+<record ID="441" MENU_ID="49" SALE_ARTICLE_ID="1824"/>
+</table>
+</child_records>
+</record>
+</table>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_MENUS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="18/12/2017 09:27:31">
+<recordcount>1</recordcount>
+<record ID="48" CODE="DM0001" DESCRIPTION="Degustazione Dolce" NOTES="" IS_VALID="1" PRINT_ITEMS="1">
+<child_records>
+<table name="SST_MENUS_VALIDITIES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_MENUS_DETAILS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="458" MENU_ID="48" SALE_ARTICLE_ID="2011"/>
+<record ID="459" MENU_ID="48" SALE_ARTICLE_ID="2012"/>
+<record ID="460" MENU_ID="48" SALE_ARTICLE_ID="2013"/>
+</table>
+</child_records>
+</record>
+</table>

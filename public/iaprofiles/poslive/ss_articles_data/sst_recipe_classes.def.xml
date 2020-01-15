@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<table name="SST_RECIPE_CLASSES" primary_key="ID" unique_fields="CODE" ordered_by="CODE">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+</fields>
+</table>

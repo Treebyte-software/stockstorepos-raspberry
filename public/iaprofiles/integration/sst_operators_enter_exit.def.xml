@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<table name="SST_OPERATORS_ENTER_EXIT" primary_key="ID" unique_fields="CARD_NUM,OPERATION_DATE" ordered_by="ID" static_filter="ID=%ID%">
+<fields>
+<field name="ID"></field>
+<field name="OPERATOR_ID"></field>
+<field name="CARD_NUM"></field>
+<field name="SHOP_ID"></field>
+<field name="OPERATION_DATE"></field>
+<field name="OPERATION"></field>
+ </fields>
+</table>

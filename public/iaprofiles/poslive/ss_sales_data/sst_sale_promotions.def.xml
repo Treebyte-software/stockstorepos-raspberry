@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<table name="SST_SALE_PROMOTIONS" primary_key="ID" unique_fields="CODE" ordered_by="" static_filter="%FILTER_SST_SALE_PROMOTIONS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="NOTES"></field>
+<field name="IS_VALID"></field>
+<field name="PROMOTION_CATEGORY_ID"></field>
+<field name="PROMOTION_TYPE"></field>
+<field name="TURNED_TO_CUSTOMERS"></field>
+<field name="USE_CHEAPER_ARTICLES"></field>
+<field name="EXCLUDE_PROMOTED_ARTICLES"></field>
+<field name="MIN_GUESTS"></field>
+<field name="MAX_GUESTS"></field>
+<field name="MAX_PROMOTION_COUNT"></field>
+<field name="MAX_PROMOTION_AMOUNT"></field>
+<field name="THRESHOLD_AMOUNT"></field>
+<field name="THRESHOLD_QUANTITY"></field>
+<field name="FIDELITY_ID"></field>
+<field name="POINTS"></field>
+<field name="FIDELITY_OPERATION"></field>
+<field name="PRINT_ON_BILL"></field>
+</fields>
+<child_tables>
+<table name="SST_SALE_PROMOTION_VALIDITIES" primary_key="ID" unique_fields="" ordered_by="" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="PROMOTION_ID" parent_field="ID"></field>
+<field name="SHOP_ID"></field>
+<field name="VALIDITY_DATE"></field>
+<field name="EXPIRATION_DATE"></field>
+<field name="VALIDITY_WEEKDAYS"></field>
+<field name="START_TIME_MINUTES"></field>
+<field name="END_TIME_MINUTES"></field>
+</fields>
+</table>
+<table name="SST_SALE_PROMOTION_CUSTOMERS" primary_key="ID" unique_fields="" ordered_by="" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="PROMOTION_ID" parent_field="ID"></field>
+<field name="CUSTOMER_GROUP_ID"></field>
+<field name="ENABLED"></field>
+</fields>
+</table>
+<table name="SST_SALE_PROMOTION_DETAILS" primary_key="ID" unique_fields="" ordered_by="" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="PROMOTION_ID" parent_field="ID"></field>
+<field name="SALE_ARTICLE_ID"></field>
+<field name="BARCODE"></field>
+<field name="SALE_GROUP_ID"></field>
+<field name="SALE_ARTICLE_LIST_ID"></field>
+<field name="MEAS_UNIT_ID"></field>
+<field name="CONVERSION_FACTOR"></field>
+<field name="THRESHOLD_QUANTITY"></field>
+<field name="THRESHOLD_AMOUNT"></field>
+<field name="REPLACE_PRICE"></field>
+<field name="SALE_DISCOUNT_ID"></field>
+<field name="FREE_SALE_ARTICLE_ID"></field>
+<field name="FREE_QUANTITY"></field>
+<!--<field name="SALE_GROUP_B_ID"></field>
+<field name="SALE_GROUP_C_ID"></field>
+<field name="SALE_GROUP_D_ID"></field>
+<field name="SALE_GROUP_E_ID"></field>-->
+<field name="FIDELITY_ID"></field>
+<field name="POINTS"></field>
+<field name="FIDELITY_OPERATION"></field>
+<field name="FREE_ARTICLE_VALUE"></field>
+<field name="VALUE_DISCOUNT"></field>
+<field name="USER_MESSAGE"></field>
+<field name="SHOW_MSG_ON_ARTICLE"></field>
+<field name="SHOW_MSG_ON_TOTAL"></field>
+</fields>
+</table>
+</child_tables>
+</table>

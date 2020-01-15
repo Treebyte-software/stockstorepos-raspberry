@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<table name="SST_SALE_HEADINGS" primary_key="ID" unique_fields="POS_ID,TRANSACTION_NUM,TRANSACTION_DATE,DELETED" ordered_by="ID" static_filter="(pos_id = (SELECT pos_id FROM sst_pos_system_settings)) AND (transaction_num >= %START_NUM% AND transaction_num <= %END_NUM%) AND (suspended = 0) AND (annulled = 0) AND (deleted = 0) AND (bill_status IN (3,4,5))">
+<fields>
+<field name="ID"></field>
+<field name="SHOP_ID"></field>
+<field name="POS_ID"></field>
+<field name="TRANSACTION_NUM"></field>
+<field name="TRANSACTION_DATE"></field>
+<field name="ACCOUNTING_DATE"></field>
+<field name="TOTAL_AMOUNT"></field>
+<field name="TOTAL_QUANTITY"></field>
+<field name="TOTAL_ITEMS"></field>
+<field name="TOTAL_DISCOUNTS"></field>
+<field name="TOTAL_REFUNDS"></field>
+<field name="TOTAL_REFUNDS_ITEMS"></field>
+<field name="CURRENCY_ID"></field>
+<field name="CHANGE"></field>
+<field name="CHANGE_DATE"></field>
+<field name="EXTERNAL_CAUSAL_CODE"></field>
+<field name="DELETED"></field>
+<field name="DELETE_DATE"></field>
+<field name="DELETE_OPERATOR_ID"></field>
+<field name="ANNULLED"></field>
+<field name="ANNULL_DATE"></field>
+<field name="ANNULL_OPERATOR_ID"></field>
+<field name="ACQUIRED"></field>
+<field name="DELETED_ACQUIRED"></field>
+<field name="EXTERNAL_ID"></field>
+<field name="OPERATOR_ID"></field>
+<field name="SALE_PRICE_LIST_ID"></field>
+<field name="SALE_CAUSAL_ID"></field>
+<field name="NOTES"></field>
+<field name="CARD_NUM"></field>
+<field name="REFERENCE_CARD_NUM"></field>
+<field name="FISCAL_NUM"></field>
+<field name="INVOICE_NUM"></field>
+<field name="RECEIPT_NUM"></field>
+<field name="SALE_TYPE_ID"></field>
+<field name="FISCAL_CODE"></field>
+<field name="CUSTOMER_AGE_GROUP_ID"></field>
+<field name="CUSTOMER_GENRE"></field>
+<field name="CUSTOMER_COUNTRY_ID"></field>
+<field name="CUSTOMER_ZIP_CODE"></field>
+<field name="DOCUMENT_EXT_CODE"></field>
+<field name="LINK_EXTERNAL_DOC_1"></field>
+<field name="LINK_EXTERNAL_DOC_2"></field>
+<field name="LINK_EXTERNAL_DOC_3"></field>
+<field name="TEXT_FIELD_1"></field>
+<field name="TEXT_FIELD_2"></field>
+<field name="TEXT_FIELD_3"></field>
+<field name="TEXT_FIELD_4"></field>
+<field name="TEXT_FIELD_5"></field>
+<field name="NUMBER_FIELD_1"></field>
+<field name="NUMBER_FIELD_2"></field>
+<field name="NUMBER_FIELD_3"></field>
+<field name="NUMBER_FIELD_4"></field>
+<field name="NUMBER_FIELD_5"></field>
+<field name="INTEGER_FIELD_1"></field>
+<field name="INTEGER_FIELD_2"></field>
+<field name="INTEGER_FIELD_3"></field>
+<field name="INTEGER_FIELD_4"></field>
+<field name="INTEGER_FIELD_5"></field>
+<field name="BILL_STATUS"></field>
+</fields>
+<child_tables>
+<table name="SST_SALE_DETAILS" primary_key="ID" unique_fields="HEADING_ID,EXTERNAL_ID" ordered_by="DETAIL_ORDER">
+<fields>
+<field name="ID"></field>
+<field name="HEADING_ID" parent_field="ID"></field>
+<field name="SALE_ARTICLE_ID"></field>
+<field name="SALE_PRICE_LIST_ID"></field>
+<field name="VAT_ID"></field>
+<field name="MEAS_UNIT_ID"></field>
+<field name="CONVERSION_FACTOR"></field>
+<field name="SERIAL_NUMBER"></field>
+<field name="LOT_EXTERNAL_CODE"></field>
+<field name="EXPIRATION_DATE"></field>
+<field name="QUANTITY"></field>
+<field name="PRICE"></field>
+<field name="DISCOUNT"></field>
+<field name="ROW_TOTAL_PRICE"></field>
+<field name="DELETED"></field>
+<field name="DETAIL_ORDER"></field>
+<field name="SALE_CAUSAL_ID"></field>
+<field name="SELLER_ID"></field>
+<field name="PROMOTION_DISCOUNT"></field>
+<field name="REFERENCE_PRICE"></field>
+<field name="DELETE_OPERATOR_ID"></field>
+<field name="DONT_PRINT"></field>
+<field name="VAT_PERCENT"></field>
+<field name="ID" alias="EXTERNAL_ID"></field>
+<field name="LINK_EXTERNAL_DOC_1"></field>
+<field name="LINK_EXTERNAL_DOC_2"></field>
+<field name="LINK_EXTERNAL_DOC_3"></field>
+<field name="TEXT_FIELD_1"></field>
+<field name="TEXT_FIELD_2"></field>
+<field name="TEXT_FIELD_3"></field>
+<field name="TEXT_FIELD_4"></field>
+<field name="TEXT_FIELD_5"></field>
+<field name="NUMBER_FIELD_1"></field>
+<field name="NUMBER_FIELD_2"></field>
+<field name="NUMBER_FIELD_3"></field>
+<field name="NUMBER_FIELD_4"></field>
+<field name="NUMBER_FIELD_5"></field>
+<field name="INTEGER_FIELD_1"></field>
+<field name="INTEGER_FIELD_2"></field>
+<field name="INTEGER_FIELD_3"></field>
+<field name="INTEGER_FIELD_4"></field>
+<field name="INTEGER_FIELD_5"></field>
+</fields>
+</table>
+<table name="SST_SALE_DETAILS_DISCOUNTS" primary_key="ID" unique_fields="HEADING_ID,EXTERNAL_ID" ordered_by="DETAIL_ORDER">
+<fields>
+<field name="ID"></field>
+<field name="HEADING_ID" parent_field="ID"></field>
+<field name="SALE_DISCOUNT_ID"></field>
+<field name="QUANTITY"></field>
+<field name="AMOUNT"></field>
+<field name="DETAIL_ORDER"></field>
+<field name="ID" alias="EXTERNAL_ID"></field>
+<field name="LINK_EXTERNAL_DOC_1"></field>
+<field name="LINK_EXTERNAL_DOC_2"></field>
+<field name="LINK_EXTERNAL_DOC_3"></field>
+<field name="TEXT_FIELD_1"></field>
+<field name="TEXT_FIELD_2"></field>
+<field name="TEXT_FIELD_3"></field>
+<field name="TEXT_FIELD_4"></field>
+<field name="TEXT_FIELD_5"></field>
+<field name="NUMBER_FIELD_1"></field>
+<field name="NUMBER_FIELD_2"></field>
+<field name="NUMBER_FIELD_3"></field>
+<field name="NUMBER_FIELD_4"></field>
+<field name="NUMBER_FIELD_5"></field>
+<field name="INTEGER_FIELD_1"></field>
+<field name="INTEGER_FIELD_2"></field>
+<field name="INTEGER_FIELD_3"></field>
+<field name="INTEGER_FIELD_4"></field>
+<field name="INTEGER_FIELD_5"></field>
+</fields>
+</table>
+<table name="SST_SALE_DETAILS_NOTES" primary_key="ID" unique_fields="HEADING_ID,EXTERNAL_ID" ordered_by="DETAIL_ORDER">
+<fields>
+<field name="ID"></field>
+<field name="HEADING_ID" parent_field="ID"></field>
+<field name="DETAIL_ORDER"></field>
+<field name="SALE_CAUSAL_ID"></field>
+<field name="NOTES"></field>
+<field name="DONT_PRINT"></field>
+<field name="ID" alias="EXTERNAL_ID"></field>
+</fields>
+</table>
+<table name="SST_SALE_DETAILS_PAYMENTS" primary_key="ID" unique_fields="HEADING_ID,EXTERNAL_ID" ordered_by="DETAIL_ORDER">
+<fields>
+<field name="ID"></field>
+<field name="HEADING_ID" parent_field="ID"></field>
+<field name="DETAIL_ORDER"></field>
+<field name="SALE_PAYMENT_ID"></field>
+<field name="AMOUNT"></field>
+<field name="CURRENCY_ID"></field>
+<field name="CURRENCY_AMOUNT"></field>
+<field name="CREDIT_CARD_ID"></field>
+<field name="CREDIT_CARD_NUM"></field>
+<field name="CARD_NUM"></field>
+<field name="POS_TERMINAL_ID"></field>
+<field name="POS_ACQUIRER_ID"></field>
+<field name="POS_TRANSACTION_TYPE"></field>
+<field name="POS_TRANSACTION_RESULT"></field>
+<field name="POS_ERROR_TEXT"></field>
+<field name="POS_CARD_TYPE"></field>
+<field name="POS_STAN"></field>
+<field name="POS_PAN"></field>
+<field name="POS_OPERATION_NUMBER"></field>
+<field name="POS_AUTH_CODE"></field>
+<field name="POS_TRANSACTION_DATE"></field>
+<field name="POS_TICKET"></field>
+<field name="PAYMENT_VALUE_ID"></field>
+<field name="ID" alias="EXTERNAL_ID"></field>
+</fields>
+</table>
+<table name="SST_SALE_DETAILS_PROMOTIONS" primary_key="ID" unique_fields="HEADING_ID,EXTERNAL_ID" ordered_by="DETAIL_ORDER">
+<fields>
+<field name="ID"></field>
+<field name="HEADING_ID" parent_field="ID"></field>
+<field name="DETAIL_ORDER"></field>
+<field name="SALE_PROMOTION_ID"></field>
+<field name="QUANTITY"></field>
+<field name="AMOUNT"></field>
+<field name="ARTICLES_AMOUNT"></field>
+<field name="DISCOUNTS_AMOUNT"></field>
+<field name="PARENT_DETAIL_ORDER"></field>
+<field name="PROMOTION_ROW_TYPE"></field>
+<field name="ID" alias="EXTERNAL_ID"></field>
+<field name="TEXT_FIELD_1"></field>
+<field name="TEXT_FIELD_2"></field>
+<field name="TEXT_FIELD_3"></field>
+<field name="TEXT_FIELD_4"></field>
+<field name="TEXT_FIELD_5"></field>
+<field name="NUMBER_FIELD_1"></field>
+<field name="NUMBER_FIELD_2"></field>
+<field name="NUMBER_FIELD_3"></field>
+<field name="NUMBER_FIELD_4"></field>
+<field name="NUMBER_FIELD_5"></field>
+<field name="INTEGER_FIELD_1"></field>
+<field name="INTEGER_FIELD_2"></field>
+<field name="INTEGER_FIELD_3"></field>
+<field name="INTEGER_FIELD_4"></field>
+<field name="INTEGER_FIELD_5"></field>
+</fields>
+</table>
+<table name="SST_SALE_DETAILS_VATS" primary_key="ID" unique_fields="HEADING_ID,VAT_ID" ordered_by="HEADING_ID,VAT_PERCENT DESC">
+<fields>
+<field name="ID"></field>
+<field name="HEADING_ID" parent_field="ID"></field>
+<field name="VAT_ID"></field>
+<field name="VAT_PERCENT"></field>
+<field name="NET_AMOUNT"></field>
+<field name="VAT_AMOUNT"></field>
+<field name="GROSS_AMOUNT"></field>
+</fields>
+</table>
+<table name="SST_SALE_TRANSACTIONS" primary_key="ID" unique_fields="SALE_HEADING_ID,DETAIL_ID,INGREDIENT_ID" ordered_by="ID">
+<fields>
+<field name="ID"></field>
+<field name="SALE_HEADING_ID" parent_field="ID"></field>
+<field name="CAUSAL_ID"></field>
+<field name="WAREHOUSE_ID"></field>
+<field name="ARTICLE_ID"></field>
+<field name="CURRENCY_ID"></field>
+<field name="CHANGE"></field>
+<field name="CHANGE_DATE"></field>
+<field name="TRANSACTION_DATE"></field>
+<field name="QUANTITY"></field>
+<field name="COST"></field>
+<field name="OPERATOR_ID"></field>
+<field name="DETAIL_ID"></field>
+<field name="DOCUMENT_STATE_ID"></field>
+<field name="SHOP_ID"></field>
+<field name="POS_ID"></field>
+<field name="COMPANY_ID"></field>
+<field name="INGREDIENT_ID"></field>
+</fields>
+<child_tables>
+<table name="SST_LOTS_TRANSACTIONS" primary_key="ID" unique_fields="SALE_TRANSACTION_ID,LOT_ID" ordered_by="ID">
+<fields>
+<field name="ID"></field>
+<field name="SALE_TRANSACTION_ID" parent_field="ID"></field>
+<field name="LOT_ID"></field>
+<field name="QUANTITY"></field>
+<field name="COST"></field>
+<field name="CAUSAL_ID"></field>
+<field name="EXPIRED"></field>
+</fields>
+</table>
+</child_tables>
+</table>
+<table name="SST_FIDELITY_TRANSACTIONS" primary_key="ID" unique_fields="CUSTOMER_ID,FIDELITY_ID,TRANSACTION_HASH" ordered_by="ID">
+<fields>
+<field name="ID"></field>
+<field name="SALE_HEADING_ID" parent_field="ID"></field>
+<field name="CUSTOMER_ID" source_table="SST_CUSTOMERS" lookup_key="ID" return_fields="CODE"></field> 
+<field name="FIDELITY_ID"></field>
+<field name="OPERATOR_ID"></field>
+<field name="TRANSACTION_DATE"></field>
+<field name="OPERATION"></field>
+<field name="POINTS"></field>
+<field name="NOTES"></field>
+<field name="EXTERNAL_ID"></field>
+<field name="TRANSACTION_HASH"></field>
+</fields>
+</table>
+<table name="SST_PREPAYMENT_TRANSACTIONS" primary_key="ID" unique_fields="CARD_NUM,TRANSACTION_HASH" ordered_by="ID">
+<fields>
+<field name="ID"></field>
+<field name="SALE_HEADING_ID" parent_field="ID"></field>
+<field name="CUSTOMER_ID" source_table="SST_CUSTOMERS" lookup_key="ID" return_fields="CODE"></field> 
+<field name="CARD_NUM"></field>
+<field name="OPERATOR_ID"></field>
+<field name="TRANSACTION_DATE"></field>
+<field name="OPERATION"></field>
+<field name="AMOUNT"></field>
+<field name="NOTES"></field>
+<field name="CARD_BALANCE"></field>
+<field name="CARD_OPERATION_NUM"></field>
+<field name="EXTERNAL_ID"></field>
+<field name="TRANSACTION_HASH"></field>
+</fields>
+</table>
+</child_tables>
+</table>

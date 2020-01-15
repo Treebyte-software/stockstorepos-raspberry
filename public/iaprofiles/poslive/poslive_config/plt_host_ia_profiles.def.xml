@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<table name="PLT_HOST_IA_PROFILES" primary_key="ID" unique_fields="HOST_LOCATION_ID, ORDER_NUM" ordered_by="HOST_LOCATION_ID, ORDER_NUM" static_filter="%FILTER_PLT_HOST_IA_PROFILES%">
+<fields>
+<field name="ID"></field>
+<field name="HOST_LOCATION_ID"></field>
+<field name="IA_PROFILE_ID"></field>
+<field name="ENABLED"></field>
+<field name="ORDER_NUM"></field>
+</fields>
+</table>

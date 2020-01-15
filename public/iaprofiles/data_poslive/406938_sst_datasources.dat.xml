@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_DATASOURCES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="06/12/2017 09:52:58">
+<recordcount>1</recordcount>
+<record ID="96" CODE="3004" DESCRIPTION="Dettaglio Transazioni" USE_TYPE="1" IS_SYSTEM="0">
+<child_records>
+<table name="SST_DATASOURCE_PARAMETERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="515" DATASOURCE_ID="96" PARAM_NAME="Data Inizio" PARAM_TYPE_ID="3" VARIABLE_NAME=":start_date" DEFAULT_VALUE="" MANDATORY="1" IS_VISIBLE="1" IS_SYSTEM="0"/>
+<record ID="516" DATASOURCE_ID="96" PARAM_NAME="Data Fine" PARAM_TYPE_ID="3" VARIABLE_NAME=":end_date" DEFAULT_VALUE="" MANDATORY="1" IS_VISIBLE="1" IS_SYSTEM="0"/>
+<record ID="517" DATASOURCE_ID="96" PARAM_NAME="Negozio" PARAM_TYPE_ID="21" VARIABLE_NAME=":shop_id" DEFAULT_VALUE="" MANDATORY="0" IS_VISIBLE="1" IS_SYSTEM="0"/>
+<record ID="518" DATASOURCE_ID="96" PARAM_NAME="Cassa" PARAM_TYPE_ID="22" VARIABLE_NAME=":pos_id" DEFAULT_VALUE="" MANDATORY="0" IS_VISIBLE="1" IS_SYSTEM="0"/>
+<record ID="519" DATASOURCE_ID="96" PARAM_NAME="Operatore" PARAM_TYPE_ID="44" VARIABLE_NAME=":t_operator_id" DEFAULT_VALUE="" MANDATORY="0" IS_VISIBLE="1" IS_SYSTEM="0"/>
+<record ID="520" DATASOURCE_ID="96" PARAM_NAME="Venditore" PARAM_TYPE_ID="44" VARIABLE_NAME=":seller_id" DEFAULT_VALUE="" MANDATORY="0" IS_VISIBLE="1" IS_SYSTEM="0"/>
+<record ID="521" DATASOURCE_ID="96" PARAM_NAME="Tipo di Vendita" PARAM_TYPE_ID="64" VARIABLE_NAME=":sale_type_id" DEFAULT_VALUE="" MANDATORY="1" IS_VISIBLE="1" IS_SYSTEM="0"/>
+<record ID="522" DATASOURCE_ID="96" PARAM_NAME="Causale di Vendita" PARAM_TYPE_ID="54" VARIABLE_NAME=":sale_causal_id" DEFAULT_VALUE="" MANDATORY="0" IS_VISIBLE="1" IS_SYSTEM="0"/>
+<record ID="523" DATASOURCE_ID="96" PARAM_NAME="Articolo" PARAM_TYPE_ID="25" VARIABLE_NAME=":reference_id" DEFAULT_VALUE="" MANDATORY="0" IS_VISIBLE="1" IS_SYSTEM="0"/>
+</table>
+</child_records>
+</record>
+</table>

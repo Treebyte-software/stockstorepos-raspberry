@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<table name="SST_ARTICLES_CRITERIA" primary_key="ID" unique_fields="ARTICLE_ID, CRITERIA_ID" ordered_by="ID" static_filter="%FILTER_SST_ARTICLES_CRITERIA%">
+<fields>
+<field name="ID"></field>
+<field name="ARTICLE_ID"></field>
+<field name="CRITERIA_ID"></field>
+</fields>
+</table>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<settings>
+<profile description="sst_pos_activities_events" last_execution="30/08/2009 20.56.37" enabled="true" />
+<host_db type="%LOCALHOST_DB_TYPE%" connection="%LOCALHOST_DB_CONNECTION%" dictionary="%LOCALHOST_DICTIONARY%" structure="sst_pos_activities_events.def.xml" />
+<data_file name="%DATA_PATH%\sst_pos_activities_events.dat.xml" append_export="true" />
+<log_file name="%LOG_PATH%\sst_pos_activities_events.log.xml" append="true" />
+<options bulk_import="false" generate_ids="false" exists_behaviour="pkey" on_detail_error="invalidate_current" />
+</settings>

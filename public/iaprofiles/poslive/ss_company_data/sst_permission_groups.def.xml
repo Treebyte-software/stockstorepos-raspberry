@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<table name="SST_PERMISSION_GROUPS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_PERMISSION_GROUPS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="ACCESS_LEVEL"></field>
+<field name="IS_SYSTEM"></field>
+<field name="IS_BACKOFFICE_OPERATOR"></field>
+<field name="IS_POS_OPERATOR"></field>
+<field name="IS_SELLER"></field>
+</fields>
+<child_tables>
+<table name="SST_BU_PERMISSION_GROUPS" primary_key="ID" unique_fields="PERMISSION_GROUP_ID, BUSINESS_UNIT_ID" ordered_by="ID">
+<fields>
+<field name="ID"></field>
+<field name="PERMISSION_GROUP_ID" parent_field="ID"></field>
+<field name="BUSINESS_UNIT_ID"></field>
+<field name="DEFAULT_BUSINESS_UNIT"></field>
+<field name="CAN_MODIFY_DATA"></field>
+</fields>
+</table>
+</child_tables>
+</table>

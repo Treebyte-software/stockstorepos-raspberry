@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_DATASOURCES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="06/12/2017 09:37:54">
+<recordcount>1</recordcount>
+<record ID="96" CODE="3004" DESCRIPTION="Dettaglio Transazioni" USE_TYPE="1" IS_SYSTEM="0">
+<child_records>
+<table name="SST_DATASOURCE_PARAMETERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+</table>

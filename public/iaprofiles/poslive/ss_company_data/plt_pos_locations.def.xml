@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<table name="PLT_POS_LOCATIONS" primary_key="ID" unique_fields="POS_ID" ordered_by="" static_filter="%FILTER_PLT_POS_LOCATIONS%">
+<fields>
+<field name="ID"></field>
+<field name="POS_ID"></field>
+<field name="HOST_LOCATION_ID"></field>
+<field name="LOCATION_NAME"></field>
+<field name="EXTERNAL_ADDRESS"></field>
+<field name="FRIENDS_CODE"></field>
+<field name="SCAN_LOCAL_NETWORK"></field>
+<field name="ENABLED"></field>
+</fields>
+</table>

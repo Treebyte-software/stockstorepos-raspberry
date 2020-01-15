@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_PERMISSION_GROUPS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="12/03/2018 09:21:21">
+<recordcount>1</recordcount>
+<record ID="1" CODE="10" DESCRIPTION="Amministratori di sistema" ACCESS_LEVEL="9" IS_SYSTEM="1" IS_BACKOFFICE_OPERATOR="1" IS_POS_OPERATOR="1" IS_SELLER="0">
+<child_records>
+<table name="SST_BU_PERMISSION_GROUPS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+</table>

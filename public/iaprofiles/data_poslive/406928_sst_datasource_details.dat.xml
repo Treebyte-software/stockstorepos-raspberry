@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_DATASOURCE_DETAILS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="06/12/2017 09:37:55">
+<recordcount>1</recordcount>
+<record ID="153" DATASOURCE_ID="96" STATEMENT_ID="132" ORDER_NUM="10" IS_SYSTEM="0" PARENT_DETAIL_ID="">
+<child_records>
+<table name="SST_DATASOURCE_SUBTOTALS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+</table>

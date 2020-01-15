@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<table name="SST_SALE_DISCOUNTS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_SALE_DISCOUNTS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="NOTES"></field>
+<field name="GROUP_A_ID"></field>
+<field name="IS_VALID"></field>
+<field name="DISCOUNT_TYPE"></field>
+<field name="VARIABLE_DISCOUNT"></field>
+<field name="DISCOUNT_TARGET"></field>
+<field name="EXCLUDE_FROM_FIDELITY"></field>
+</fields>
+<child_tables>
+<table name="SST_SALE_DISCOUNT_VALUES" primary_key="ID" unique_fields="DISCOUNT_ID, SALE_PRICE_LIST_ID, THRESHOLD" ordered_by="DISCOUNT_ID, SALE_PRICE_LIST_ID, THRESHOLD">
+<fields>
+<field name="ID"></field>
+<field name="DISCOUNT_ID" parent_field="ID"></field>
+<field name="SALE_PRICE_LIST_ID"></field>
+<field name="THRESHOLD"></field>
+<field name="DISCOUNT"></field>
+</fields>
+</table>
+</child_tables>
+</table>

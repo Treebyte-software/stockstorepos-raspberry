@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_MENUS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="31/03/2018 16:16:21">
+<recordcount>1</recordcount>
+<record ID="54" CODE="DM0007" DESCRIPTION="Bevanda 1" NOTES="" IS_VALID="0" PRINT_ITEMS="0">
+<child_records>
+<table name="SST_MENUS_VALIDITIES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_MENUS_DETAILS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="486" MENU_ID="54" SALE_ARTICLE_ID="1972"/>
+<record ID="489" MENU_ID="54" SALE_ARTICLE_ID="1858"/>
+</table>
+</child_records>
+</record>
+</table>

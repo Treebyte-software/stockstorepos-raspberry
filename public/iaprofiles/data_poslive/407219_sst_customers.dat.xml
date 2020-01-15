@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_CUSTOMERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="10/12/2017 14:21:21">
+<recordcount>1</recordcount>
+<record ID="689" CODE="100C01_00067" DESCRIPTION="FRIWIX.COM SRL" NOTES="" STREET="VIA VILLORESI 19/8" ZIP_CODE="20143" CITY="MILANO" COUNTRY="MI" NATION="" INVOICE_ADDRESS="" FISCAL_CODE_A="07610460961" FISCAL_CODE_B="07610460961" PHONE_A="" PHONE_B="" FAX="" INTERNET="" EMAIL="" ANNIVERSARY="" COUNTRY_ID="7" AREA_ID="" SALE_PRICE_LIST_ID="" IS_VALID="1" REFERENCE_CUSTOMER_ID="" CUSTOMER_GROUP_ID="" PAYMENT_CONDITION_ID="" BUSINESS_UNIT_ID="" CUSTOMER_USER_FIELD_A="" CUSTOMER_USER_FIELD_B="" CUSTOMER_USER_FIELD_C="" CUSTOMER_USER_FIELD_D="" CUSTOMER_USER_FIELD_E="">
+<child_records>
+<table name="SST_CUSTOMERS_CARDS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="687" CUSTOMER_ID="689" CARD_NUM="100C01_00067" ENABLED="1" CARD_TYPE_ID="1" CARD_BALANCE="        0.00000" ISSUE_SHOP_ID="22" CURRENCY_ID="1" BLACKLISTED="0" BLACKLIST_OPERATOR_ID="" BLACKLIST_DATE="" BLACKLIST_NOTES="" ISSUING_DATE="" EXPIRATION_DATE=""/>
+</table>
+<table name="SST_BANKS_ACCOUNTS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+</table>

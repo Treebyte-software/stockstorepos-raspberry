@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<table name="SST_STOCKS" primary_key="ID" unique_fields="WAREHOUSE_ID, ARTICLE_ID" ordered_by="WAREHOUSE_ID, ARTICLE_ID" static_filter="(%FILTER_SST_STOCKS%) AND (warehouse_id IN (SELECT warehouse_id FROM plv_pos_locations WHERE location_name = '%FILTER_LOCATION_NAME%'))">
+<fields>
+<field name="ID"></field>
+<field name="WAREHOUSE_ID"></field>
+<field name="ARTICLE_ID"></field>
+<field name="REFERENCE_COST"></field>
+<field name="IS_VALID"></field>
+<field name="MIN_STOCK"></field>
+<field name="MAX_STOCK"></field>
+<field name="MIN_ORDER"></field>
+<field name="MAX_ORDER"></field>
+<field name="ARTICLE_STATE_ID"></field>
+</fields>
+</table>

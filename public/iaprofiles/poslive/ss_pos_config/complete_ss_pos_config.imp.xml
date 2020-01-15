@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings multiple="true" enabled="true" log_file="%LOG_PATH%\complete_ss_pos_config.log.xml">
+<profiles>
+<profile filename="sst_pos_activities_actions.imp.xml" description="POS Activities Actions" />
+<profile filename="sst_pos_activities_events.imp.xml" description="POS Activities Events" />
+<profile filename="sst_pos_activities.imp.xml" description="POS Activities" />
+<profile filename="sst_pos_layouts.imp.xml" description="POS layouts" />
+<profile filename="sst_pos_media_contents.imp.xml" description="POS media contents" />
+<profile filename="sst_sale_layers.imp.xml" description="Sale layers" />
+<profile filename="sst_sale_templates.imp.xml" description="Sale templates" />
+<profile filename="sst_sale_types_counters.imp.xml" description="Sale types counters" />
+<profile filename="sst_sale_controls.imp.xml" description="Sale controls" />
+<profile filename="sst_sale_types.imp.xml" description="Sale types" />
+</profiles>
+</settings>

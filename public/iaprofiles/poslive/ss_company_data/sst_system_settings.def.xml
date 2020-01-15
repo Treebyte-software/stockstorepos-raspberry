@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<table name="SST_SYSTEM_SETTINGS" primary_key="ID" unique_fields="" ordered_by="">
+<fields>
+<field name="ID"></field>
+<field name="COMPANY_ID"></field>
+<field name="WAREHOUSE_ID"></field>
+<field name="COST_FIELD_ID"></field>
+<field name="ACTUAL_QUANTITY_ID"></field>
+<field name="SALES_UNLOAD_CAUSAL_ID"></field>
+<field name="SURPLUS_CAUSAL_ID"></field>
+<field name="ANNULL_SALES_UNLOAD_CAUSAL_ID"></field>
+<field name="ANNULL_SURPLUS_CAUSAL_ID"></field>
+<field name="NUM_DECIMALS"></field>
+<field name="ROUND_FACTOR"></field>
+<field name="CURRENCY_NUM_DECIMALS"></field>
+<field name="CURRENCY_ROUND_FACTOR"></field>
+<field name="SALES_UNLOAD_COST_TYPE"></field>
+<field name="AUTO_CONFIRM_STATE_ID"></field>
+<field name="RECALC_PHISICAL_QTY"></field>
+<field name="USE_BOOKKEEPING_DATE"></field>
+<field name="USE_REGISTRATION_DATE"></field>
+<field name="VARIANT_INPUT_MODE"></field>
+<field name="NUTRIENTS_MODE"></field>
+<field name="NUTRIENTS_PROTEIN_TO_KCAL"></field>
+<field name="NUTRIENTS_FAT_TO_KCAL"></field>
+<field name="NUTRIENTS_CARBOHYDRATE_TO_KCAL"></field>
+<field name="NUTRIENTS_ALCOOL_TO_KCAL"></field>
+<field name="NUTRIENTS_KCAL_TO_KJOULE"></field>
+<field name="GROUP_A_DEFINITION"></field>
+<field name="GROUP_B_DEFINITION"></field>
+<field name="GROUP_C_DEFINITION"></field>
+<field name="GROUP_D_DEFINITION"></field>
+<field name="GROUP_E_DEFINITION"></field>
+<field name="SALE_GROUP_A_DEFINITION"></field>
+<field name="SALE_GROUP_B_DEFINITION"></field>
+<field name="SALE_GROUP_C_DEFINITION"></field>
+<field name="SALE_GROUP_D_DEFINITION"></field>
+<field name="SALE_GROUP_E_DEFINITION"></field>
+<field name="CL_SERVER_URL"></field>
+<field name="CL_SERVER_PORT"></field>
+<field name="CL_SEND_TYPE"></field>
+<field name="RECIPE_SUBST_ARTICLE"></field>
+<field name="AUTO_SAVE_MINUTES"></field>
+<field name="CREATE_SEQUENCE_CODES"></field>
+<field name="SYNCRONIZE_ARTICLE"></field>
+<field name="POS_DEFAULT_LAYOUT_ID"></field>
+<field name="SUSP_SALE_TYPE_COUNTER_ID"></field>
+<field name="ARTICLE_FLAG_A_DESC"></field>
+<field name="ARTICLE_FLAG_B_DESC"></field>
+<field name="ARTICLE_FLAG_C_DESC"></field>
+<field name="ARTICLE_FLAG_D_DESC"></field>
+<field name="ARTICLE_FLAG_E_DESC"></field>
+</fields>
+</table>

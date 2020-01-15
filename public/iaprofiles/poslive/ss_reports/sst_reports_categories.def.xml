@@ -1,0 +1,9 @@
+<?xmlversion = "1.0"?>
+<table name="SST_REPORTS_CATEGORIES" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_REPORTS_CATEGORIES%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="IS_SYSTEM"></field>
+</fields>
+</table>

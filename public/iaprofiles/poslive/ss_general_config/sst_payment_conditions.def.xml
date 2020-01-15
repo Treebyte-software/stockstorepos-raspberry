@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<table name="SST_PAYMENT_CONDITIONS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_PAYMENT_CONDITIONS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="PAYMENT_A_DAYS"></field>
+<field name="PAYMENT_B_DAYS"></field>
+<field name="PAYMENT_C_DAYS"></field>
+<field name="PAYMENT_D_DAYS"></field>
+<field name="PAYMENT_E_DAYS"></field>
+<field name="PERCENTUAL_A_PAYMENT"></field>
+<field name="PERCENTUAL_B_PAYMENT"></field>
+<field name="PERCENTUAL_C_PAYMENT"></field>
+<field name="PERCENTUAL_D_PAYMENT"></field>
+<field name="PERCENTUAL_E_PAYMENT"></field>
+<field name="END_OF_MONTH_PAYMENT"></field>
+</fields>
+</table>

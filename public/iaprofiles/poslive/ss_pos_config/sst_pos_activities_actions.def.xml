@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<table name="SST_POS_ACTIVITIES_ACTIONS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_POS_ACTIVITIES_ACTIONS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="ACTION_TYPE"></field>
+<field name="ACTION_SELECTION"></field>
+<field name="ACTION_SCRIPT"></field>
+<field name="IS_SYSTEM"></field>
+<field name="ENABLED"></field>
+<field name="CALCULATE_TOTAL"></field>
+</fields>
+</table>

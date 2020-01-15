@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<table name="SST_OPERATORS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_OPERATORS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="PWD"></field>
+<field name="PERMISSION_GROUP_ID"></field>
+<field name="DESCRIPTION"></field>
+<field name="CARD_NUM"></field>
+<field name="NOTES"></field>
+<field name="STREET"></field>
+<field name="ZIP_CODE"></field>
+<field name="CITY"></field>
+<field name="COUNTRY"></field>
+<field name="NATION"></field>
+<field name="PHONE_A"></field>
+<field name="PHONE_B"></field>
+<field name="FAX"></field>
+<field name="INTERNET"></field>
+<field name="EMAIL"></field>
+<field name="BIRTH_DATE"></field>
+<field name="ENGAGEMENT_DATE"></field>
+<field name="RESIGNATION_DATE"></field>
+<field name="FISCAL_CODE"></field>
+<field name="LANGUAGE_CODE"></field>
+<field name="IS_SYSTEM"></field>
+<field name="IMAGE" external_file="false"></field>
+<field name="RECENTS_TASKS_NUMBER"></field>
+<field name="FAVORITES_TASKS_NUMBER"></field>
+<field name="APPLICATION_STYLE"></field>
+<field name="VISIBLE_IN_LIST"></field>
+<field name="AUTO_SAVE_ENABLED"></field>
+</fields>
+<child_tables>
+<table name="SST_WAREHOUSE_OPERATORS" primary_key="ID" unique_fields="OPERATOR_ID, WAREHOUSE_ID" ordered_by="OPERATOR_ID, WAREHOUSE_ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="OPERATOR_ID" parent_field="ID"></field>
+<field name="WAREHOUSE_ID"></field>
+</fields>
+</table>
+<table name="SST_COMPANY_OPERATORS" primary_key="ID" unique_fields="OPERATOR_ID, COMPANY_ID" ordered_by="ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="OPERATOR_ID" parent_field="ID"></field>
+<field name="COMPANY_ID"></field>
+</fields>
+</table>
+</child_tables>
+</table>

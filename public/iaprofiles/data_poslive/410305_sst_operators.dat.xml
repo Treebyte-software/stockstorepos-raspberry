@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="12/03/2018 09:30:38">
+<recordcount>1</recordcount>
+<record ID="91" CODE="001" PWD="dc5c7986daef50c1e02ab09b442ee34f" PERMISSION_GROUP_ID="1" DESCRIPTION="Marcello Nicolini." CARD_NUM="001" NOTES="" STREET="" ZIP_CODE="" CITY="" COUNTRY="" NATION="" PHONE_A="" PHONE_B="" FAX="" INTERNET="" EMAIL="" BIRTH_DATE="" ENGAGEMENT_DATE="" RESIGNATION_DATE="" FISCAL_CODE="" LANGUAGE_CODE="16" IS_SYSTEM="0" IMAGE="" RECENTS_TASKS_NUMBER="10" FAVORITES_TASKS_NUMBER="10" APPLICATION_STYLE="1" VISIBLE_IN_LIST="1" AUTO_SAVE_ENABLED="0">
+<child_records>
+<table name="SST_WAREHOUSE_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_COMPANY_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="116" OPERATOR_ID="91" COMPANY_ID="1"/>
+<record ID="117" OPERATOR_ID="91" COMPANY_ID="24"/>
+</table>
+</child_records>
+</record>
+</table>

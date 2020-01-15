@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<settings>
+<profile description="sst_pos_activities" last_execution="24/04/2008 17.41.11" enabled="true" />
+<local_db type="%LOCALHOST_DB_TYPE%" connection="%LOCALHOST_DB_CONNECTION%" dictionary="%LOCALHOST_DICTIONARY%" structure="sst_pos_activities.def.xml" />
+<data_file name="%DATA_PATH%\sst_pos_activities.dat.xml" append_export="true" />
+<log_file name="%LOG_PATH%\sst_pos_activities.log.xml" append="true" />
+<options bulk_import="false" generate_ids="false" exists_behaviour="pkey" on_detail_error="invalidate_current" />
+</settings>

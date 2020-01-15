@@ -1,0 +1,6 @@
+<?php
+
+$dsn = "firebird:dbname=localhost:/home/pi/database/stockstorepos.fdb";
+$username = "SYSDBA";
+$password = "masterkey";
+

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<settings multiple="true" enabled="true" log_file="%LOG_PATH%\complete_ss_articles_data.log.xml">
+<profiles>
+<profile filename="sst_recipe_classes.exp.xml" description="Recipe classes" />
+<profile filename="sst_recipe_groups.exp.xml" description="Recipe groups" />
+<profile filename="sst_recipe_provenances.exp.xml" description="Recipe provenances" />
+<profile filename="sst_recipe_seasons.exp.xml" description="Recipe seasons" />
+<profile filename="sst_recipe_typologies.exp.xml" description="Recipe typologies" />
+<profile filename="sst_shipping_criteria.exp.xml" description="Shipping criteria" />
+<profile filename="sst_carriers.exp.xml" description="Shipping carriers" />
+<profile filename="sst_article_states.exp.xml" description="Articles states" />
+<profile filename="sst_workings.exp.xml" description="Workings" />
+<profile filename="sst_nutrients_groups.exp.xml" description="Nutrients groups" />
+<profile filename="sst_nutrients.exp.xml" description="Nutrients" />
+<profile filename="sst_variant_types.exp.xml" description="Variant types" />
+<profile filename="sst_groups.exp.xml" description="Articles categories" />
+<profile filename="sst_link_groups.exp.xml" description="Categories links" />
+<profile filename="sst_references.exp.xml" description="References" />
+<profile filename="sst_warehouse_articles.exp.xml" description="Articles" />
+<profile filename="sst_base_lists.exp.xml" description="Recipes" />
+<profile filename="sst_menus.exp.xml" description="Menus" />
+<profile filename="sst_sale_article_links.exp.xml" description="Sale article links" />
+<profile filename="sst_image_links.exp.xml" description="Image links" />
+<profile filename="sst_articles_list.exp.xml" description="Article lists" />
+<profile filename="sst_sale_articles_list.exp.xml" description="Sale article lists" />
+<profile filename="sst_lots.exp.xml" description="Lots" />
+<profile filename="sst_articles_criteria.exp.xml" description="Articles criteria" />
+<profile filename="sst_articles_linking.exp.xml" description="Articles linking" />
+<profile filename="sst_shipping_allowed_links.exp.xml" description="Shipping allowed optionals" />
+</profiles>
+</settings>

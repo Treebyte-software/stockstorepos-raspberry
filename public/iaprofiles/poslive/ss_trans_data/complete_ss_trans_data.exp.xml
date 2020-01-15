@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings multiple="true" enabled="true" log_file="%LOG_PATH%\complete_trans_data.log.xml">
+<profiles>
+<profile filename="sst_transactions.exp.xml" description="Warehouse transactions" />
+<profile filename="sst_sale_transactions.exp.xml" description="Sale transactions" />
+<profile filename="sst_fidelity_transactions.exp.xml" description="Fidelity transactions" />
+<profile filename="sst_prepayment_transactions.exp.xml" description="Prepayment transactions" />
+</profiles>
+</settings>

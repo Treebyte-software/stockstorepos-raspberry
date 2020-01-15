@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<table name="SST_ARTICLES_LINKING" primary_key="ID" unique_fields="ARTICLE_ID, LINKED_ARTICLE_ID" ordered_by="ID" deletion_type="all">
+<fields>
+<field name="ID"></field>
+<field name="ARTICLE_ID"></field>
+<field name="LINKED_ARTICLE_ID"></field>
+</fields>
+</table>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<table name="SST_LINK_GROUPS" primary_key="ID" unique_fields="GROUP_ID" ordered_by="GROUP_ID" static_filter="%FILTER_SST_LINK_GROUPS%">
+<fields>
+<field name="ID"></field>
+<field name="GROUP_ID"></field>
+<field name="SALE_GROUP_ID"></field>
+</fields>
+</table>

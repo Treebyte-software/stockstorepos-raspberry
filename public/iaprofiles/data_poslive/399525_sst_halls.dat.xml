@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_HALLS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="14/07/2017 09:41:14">
+<recordcount>1</recordcount>
+<record ID="64" CODE="100-03" DESCRIPTION="Piazza" NOTES="" SHOP_ID="22">
+<child_records>
+<table name="SST_LUNCH_TABLES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="2022" HALL_ID="64" CODE="01" DESCRIPTION="1P" NOTES="" GUESTS_NUM="4">
+<child_records>
+<table name="SST_LUNCH_TABLES_SITUATION" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="2022" LUNCH_TABLE_ID="2022"/>
+</table>
+</child_records>
+</record>
+<record ID="2023" HALL_ID="64" CODE="02" DESCRIPTION="2P" NOTES="" GUESTS_NUM="4">
+<child_records>
+<table name="SST_LUNCH_TABLES_SITUATION" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="2023" LUNCH_TABLE_ID="2023"/>
+</table>
+</child_records>
+</record>
+<record ID="2024" HALL_ID="64" CODE="03" DESCRIPTION="3P" NOTES="" GUESTS_NUM="4">
+<child_records>
+<table name="SST_LUNCH_TABLES_SITUATION" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="2024" LUNCH_TABLE_ID="2024"/>
+</table>
+</child_records>
+</record>
+<record ID="2025" HALL_ID="64" CODE="04" DESCRIPTION="4P" NOTES="" GUESTS_NUM="4">
+<child_records>
+<table name="SST_LUNCH_TABLES_SITUATION" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="2025" LUNCH_TABLE_ID="2025"/>
+</table>
+</child_records>
+</record>
+<record ID="2026" HALL_ID="64" CODE="05" DESCRIPTION="5P" NOTES="" GUESTS_NUM="4">
+<child_records>
+<table name="SST_LUNCH_TABLES_SITUATION" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="2026" LUNCH_TABLE_ID="2026"/>
+</table>
+</child_records>
+</record>
+<record ID="2027" HALL_ID="64" CODE="06" DESCRIPTION="6P" NOTES="" GUESTS_NUM="4">
+<child_records>
+<table name="SST_LUNCH_TABLES_SITUATION" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="2027" LUNCH_TABLE_ID="2027"/>
+</table>
+</child_records>
+</record>
+<record ID="2037" HALL_ID="64" CODE="07" DESCRIPTION="3PB" NOTES="" GUESTS_NUM="4">
+<child_records>
+<table name="SST_LUNCH_TABLES_SITUATION" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="2037" LUNCH_TABLE_ID="2037"/>
+</table>
+</child_records>
+</record>
+<record ID="2038" HALL_ID="64" CODE="08" DESCRIPTION="4PB" NOTES="" GUESTS_NUM="4">
+<child_records>
+<table name="SST_LUNCH_TABLES_SITUATION" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="2038" LUNCH_TABLE_ID="2038"/>
+</table>
+</child_records>
+</record>
+</table>
+</child_records>
+</record>
+</table>

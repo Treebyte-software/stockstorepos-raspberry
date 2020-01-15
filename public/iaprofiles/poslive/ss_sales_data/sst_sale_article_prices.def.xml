@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<table name="SST_SALE_ARTICLE_PRICES" primary_key="ID" unique_fields="SALE_PRICE_LIST_ID, SALE_ARTICLE_ID" ordered_by="SALE_PRICE_LIST_ID, SALE_ARTICLE_ID" static_filter="%FILTER_SST_SALE_ARTICLE_PRICES%">
+<fields>
+<field name="ID"></field>
+<field name="SALE_PRICE_LIST_ID"></field>
+<field name="SALE_ARTICLE_ID"></field>
+<field name="MEAS_UNIT_ID"></field>
+<field name="CONVERSION_FACTOR"></field>
+<field name="PRICE"></field>
+<field name="VALIDITY_DATE"></field>
+<field name="EXPIRATION_DATE"></field>
+<field name="IS_VALID"></field>
+<field name="NOTES"></field>
+</fields>
+</table>

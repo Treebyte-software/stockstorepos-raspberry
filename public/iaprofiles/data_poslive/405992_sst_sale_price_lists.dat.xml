@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_SALE_PRICE_LISTS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="13/11/2017 11:58:52">
+<recordcount>1</recordcount>
+<record ID="73" CODE="999" DESCRIPTION="Listino di riferimento" NOTES="Listino con prezzi di riferimento degli articoli" CURRENCY_ID="1" COUNTRY_ID="7" VALIDITY_DATE="" EXPIRATION_DATE="" DONT_APPLY_VAT="0" IS_VALID="1" BUSINESS_UNIT_ID="">
+<child_records>
+<table name="SST_POINT_OF_SALES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="38" CODE="100C01" DESCRIPTION="Cassa 1 SE MO" SHOP_ID="22" SALE_TYPE_ID="2" SALE_PRICE_LIST_ID="73">
+<child_records>
+<table name="SST_POS_ARTICLES_UNLOAD" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_POS_CATEGORIES_UNLOAD" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="76" CODE="100S01" DESCRIPTION="Server Restaurant MO" SHOP_ID="22" SALE_TYPE_ID="2" SALE_PRICE_LIST_ID="73">
+<child_records>
+<table name="SST_POS_ARTICLES_UNLOAD" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_POS_CATEGORIES_UNLOAD" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+</table>
+</child_records>
+</record>
+</table>

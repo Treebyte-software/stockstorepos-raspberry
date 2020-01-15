@@ -1,0 +1,35 @@
+<?php
+
+function getNewId($db, $table){
+	// SELECT GEN_ID('contatore') AS ID FROM RDB$DATABASE;
+	// SST_VATS
+	// __Q_____
+	$seqName = substr($table,0,2).'Q'.substr($table,3,strlen($table)-3);
+	if ($table == 'SSV_ORDER_HEADINGS') {
+		$seqName = 'SSQ_SALE_HEADINGS';
+	}
+	if ($table == 'SSV_ORDER_DETAILS') {
+		$seqName = 'SSQ_SALE_DETAILS';
+	}
+	if ($table == 'SSV_ORDER_DETAILS_NOTES') {
+		$seqName = 'SSQ_SALE_DETAILS_NOTES';
+	}
+	$systemTable = 'RDB$DATABASE';
+	$table = $db->$systemTable->select("GEN_ID(".$seqName.",1)");
+	$_array = $table->fetch();
+	foreach ($_array as $dato) {
+		$id = $dato;
+	}
+	return $id;
+}
+
+function getCurrentTimeStamp($db){
+	$systemTable = 'RDB$DATABASE';
+	$rows = $db->$systemTable;
+	$rows->select('CURRENT_TIMESTAMP(0)');
+	$currentTimeStamp='';
+	foreach ($rows as $row) {
+		$currentTimeStamp = $row['CURRENT_TIMESTAMP'];
+	}
+	return $currentTimeStamp;
+}

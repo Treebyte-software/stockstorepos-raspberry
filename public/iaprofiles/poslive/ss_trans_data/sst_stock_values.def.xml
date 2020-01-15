@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<table name="SST_STOCK_VALUES" primary_key="ID" unique_fields="STOCK_ID, STOCK_FIELD_ID" ordered_by="STOCK_ID, STOCK_FIELD_ID" static_filter="%FILTER_SST_STOCK_VALUES% AND stock_id IN (SELECT id FROM sst_stocks WHERE warehouse_id IN (SELECT warehouse_id FROM plv_pos_locations WHERE location_name = '%FILTER_LOCATION_NAME%')) AND stock_field_id IN (SELECT id FROM sst_stock_fields WHERE visible_in_pos = 1)">
+<fields>
+<field name="ID"></field>
+<field name="STOCK_FIELD_ID"></field>
+<field name="STOCK_ID"></field>
+<field name="FIELD_VALUE"></field>
+<field name="COUNTS"></field>
+<field name="ABSOLUTE_COUNT"></field>
+<field name="LAST_TRANSACTION_DATE"></field>
+</fields>
+</table>

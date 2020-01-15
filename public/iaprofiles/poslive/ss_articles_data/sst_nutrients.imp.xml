@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<settings>
+<profile description="sst_nutrients" last_execution="-NOTHING-" enabled="true" />
+<local_db type="%LOCALHOST_DB_TYPE%" connection="%LOCALHOST_DB_CONNECTION%" dictionary="%LOCALHOST_DICTIONARY%" structure="sst_nutrients.def.xml" />
+<data_file name="%DATA_PATH%\sst_nutrients.dat.xml" append_export="False" />
+<log_file name="%LOG_PATH%\sst_nutrients.log.xml" append="False" />
+<options bulk_import="false" generate_ids="false" exists_behaviour="pkey" on_detail_error="invalidate_current" />
+</settings>

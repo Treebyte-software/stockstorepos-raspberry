@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<table name="SST_POINT_OF_SALES" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_POINT_OF_SALES%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="NOTES"></field>
+<field name="SHOP_ID"></field>
+<field name="UNLOAD_WAREHOUSE_ID"></field>
+<field name="IS_VALID"></field>
+<field name="SALE_TYPE_ID"></field>
+<field name="TOTAL_LAYER_ID"></field>
+<field name="POS_LAYOUT_ID"></field>
+<field name="CLOSING_TEMPLATE_ID"></field>
+</fields>
+<child_tables>
+<table name="SST_POS_DEVICES" primary_key="ID" unique_fields="POS_ID, DEVICE_ID" ordered_by="POS_ID, DEVICE_ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="POS_ID" parent_field="ID"></field>
+<field name="DEVICE_ID"></field>
+<field name="SERIAL_NUM"></field>
+<field name="PRODUCTION_CENTER_ID"></field>
+<field name="SALE_PAYMENT_ID"></field>
+<field name="INPUT_FILE"></field>
+<field name="OUTPUT_FILE"></field>
+<field name="SEMAPHOR_FILE"></field>
+<field name="ERROR_FILE"></field>
+<field name="COM_SETTINGS"></field>
+<field name="COMMAND_PRINT"></field>
+<field name="DEVICE_ADDRESS"></field>
+<field name="ENABLED"></field>
+</fields>
+</table>
+<table name="SST_POS_EVENTS" primary_key="ID" unique_fields="" ordered_by="ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="POS_ID" parent_field="ID"></field>
+<field name="EXECUTION_TIME_MINUTES"></field>
+<field name="EVERY_TIME_MINUTES"></field>
+<field name="ACTIVITY_ID"></field>
+<field name="ENABLED"></field>
+<field name="TIMEOUT_TIME_MINUTES"></field>
+<field name="EVENT_WEEKDAYS"></field>
+</fields>
+</table>
+<table name="SST_POS_LAYERS" primary_key="ID" unique_fields="POS_ID, LAYER_ID" ordered_by="POS_ID, ORDER_NUM" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="POS_ID" parent_field="ID"></field>
+<field name="LAYER_ID"></field>
+<field name="ORDER_NUM"></field>
+</fields>
+</table>
+<table name="SST_POS_TEMPLATES" primary_key="ID" unique_fields="POS_ID, SALE_TYPE_ID, TEMPLATE_ID" ordered_by="ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="POS_ID" parent_field="ID"></field>
+<field name="SALE_TYPE_ID"></field>
+<field name="TEMPLATE_ID"></field>
+<field name="DEVICE_ID"></field>
+<field name="IS_DEFAULT"></field>
+</fields>
+</table>
+</child_tables>
+</table>

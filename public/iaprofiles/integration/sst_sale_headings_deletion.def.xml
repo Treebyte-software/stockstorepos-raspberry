@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<table name="SST_SALE_HEADINGS_DELETION" primary_key="ID" unique_fields="POS_ID,TRANSACTION_NUM,DETAIL_ORDER" ordered_by="">
+<fields>
+<field name="ID"></field>
+<field name="SHOP_ID"></field>
+<field name="POS_ID"></field>
+<field name="LUNCH_TABLE_ID"></field>
+<field name="LUNCH_TABLE_STATE_ID"></field>
+<field name="TRANSACTION_NUM"></field>
+<field name="TOTAL_AMOUNT"></field>
+<field name="SALE_ARTICLE_ID"></field>
+<field name="QUANTITY"></field>
+<field name="PRICE"></field>
+<field name="DELETE_OPERATOR_ID"></field>
+<field name="DELETE_DATE"></field>
+<field name="DELETE_NOTES"></field>
+<field name="DETAIL_ORDER"></field>
+</fields>
+</table>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<table name="SST_SALE_TYPES_COUNTERS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_SALE_TYPES_COUNTERS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="ENUMERATION_TYPE"></field>
+<field name="RESET_ON_CLOSING"></field>
+<field name="COUNTER_FIELD_NAME"></field>
+<field name="COUNTER_FORMAT"></field>
+<field name="MAX_VALUE"></field>
+<field name="ALLOW_OFFLINE"></field>
+</fields>
+</table>

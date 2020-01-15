@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_MENUS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="27/03/2018 19:05:01">
+<recordcount>1</recordcount>
+<record ID="55" CODE="DM0008" DESCRIPTION="Bevanda 2" NOTES="" IS_VALID="1" PRINT_ITEMS="0">
+<child_records>
+<table name="SST_MENUS_VALIDITIES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_MENUS_DETAILS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="491" MENU_ID="55" SALE_ARTICLE_ID="1839"/>
+<record ID="492" MENU_ID="55" SALE_ARTICLE_ID="1840"/>
+<record ID="493" MENU_ID="55" SALE_ARTICLE_ID="1841"/>
+<record ID="494" MENU_ID="55" SALE_ARTICLE_ID="1842"/>
+<record ID="495" MENU_ID="55" SALE_ARTICLE_ID="1843"/>
+<record ID="496" MENU_ID="55" SALE_ARTICLE_ID="1844"/>
+<record ID="497" MENU_ID="55" SALE_ARTICLE_ID="1845"/>
+<record ID="498" MENU_ID="55" SALE_ARTICLE_ID="1846"/>
+<record ID="499" MENU_ID="55" SALE_ARTICLE_ID="1847"/>
+<record ID="500" MENU_ID="55" SALE_ARTICLE_ID="1848"/>
+<record ID="501" MENU_ID="55" SALE_ARTICLE_ID="1849"/>
+<record ID="502" MENU_ID="55" SALE_ARTICLE_ID="1850"/>
+<record ID="503" MENU_ID="55" SALE_ARTICLE_ID="1851"/>
+<record ID="504" MENU_ID="55" SALE_ARTICLE_ID="1972"/>
+<record ID="505" MENU_ID="55" SALE_ARTICLE_ID="2014"/>
+<record ID="506" MENU_ID="55" SALE_ARTICLE_ID="2015"/>
+<record ID="507" MENU_ID="55" SALE_ARTICLE_ID="1858"/>
+<record ID="508" MENU_ID="55" SALE_ARTICLE_ID="1860"/>
+</table>
+</child_records>
+</record>
+</table>

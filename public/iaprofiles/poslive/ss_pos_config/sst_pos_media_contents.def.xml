@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<table name="SST_POS_MEDIA_CONTENTS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_POS_MEDIA_CONTENTS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="START_DATE"></field>
+<field name="END_DATE"></field>
+<field name="START_TIME_MINUTES"></field>
+<field name="END_TIME_MINUTES"></field>
+<field name="WEEKDAYS"></field>
+<field name="MEDIA" external_file="false"></field>
+<field name="MD5_MEDIA"></field>
+</fields>
+</table>

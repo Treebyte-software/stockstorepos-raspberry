@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<table name="SST_CUSTOMERS_CARDS_TYPES" primary_key="ID" unique_fields="CODE" ordered_by="ID" static_filter="%FILTER_SST_CUSTOMERS_CARDS_TYPES%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="ENABLED"></field>
+<field name="CARD_TYPE"></field>
+<field name="IDENTIFICATION_RULE"></field>
+<field name="SAVE_BALANCE_ON_CARD"></field>
+<field name="ISSUING_SALE_TYPE_ID"></field>
+<field name="RECHARGE_SALE_TYPE_ID"></field>
+<field name="REGISTER_CUSTOMER"></field>
+<field name="CUSTOMER_GROUP_ID"></field>
+<field name="ISSUING_AMOUNTS"></field>
+<field name="RECHARGE_AMOUNTS"></field>
+<field name="PREPAYMENT_MIN_AMOUNT"></field>
+<field name="PREPAYMENT_MAX_AMOUNT"></field>
+<field name="PREPAYMENT_WARN_AMOUNT"></field>
+<field name="CREDIT_MAX_AMOUNT"></field>
+<field name="CARD_IMAGE_ID"></field>
+<field name="ALLOW_RECHARGE"></field>
+<field name="VALID_IN_ALL_SHOPS"></field>
+<field name="DAYS_OF_VALIDITY"></field>
+</fields>
+<child_tables>
+<table name="SST_CUSTOMERS_CARDS_TYPES_SHOP" primary_key="ID" unique_fields="CUSTOMER_CARD_TYPE_ID, SHOP_ID" ordered_by="CUSTOMER_CARD_TYPE_ID, SHOP_ID">
+<fields>
+<field name="ID"></field>
+<field name="CUSTOMER_CARD_TYPE_ID" parent_field="ID"></field>
+<field name="SHOP_ID"></field>
+<field name="ENABLED"></field>
+</fields>
+</table>
+</child_tables>
+</table>

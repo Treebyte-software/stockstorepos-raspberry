@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<table name="SST_SALE_CONTROLS" primary_key="ID" unique_fields="CODE" ordered_by="" static_filter="%FILTER_SST_SALE_CONTROLS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="CONTROL_LEVEL"></field>
+<field name="CONTROL_TYPE"></field>
+<field name="EXECUTE_FOR_EACH_ROW"></field>
+<field name="EXPRESSION"></field>
+<field name="MESSAGE_TEXT"></field>
+<field name="IS_SYSTEM"></field>
+</fields>
+</table>

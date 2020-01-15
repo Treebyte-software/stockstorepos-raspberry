@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_MOBILE_POINT_OF_SALES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="22/05/2018 09:59:46">
+<recordcount>3</recordcount>
+<record ID="1" CODE="100M01" DESCRIPTION="Palmare 1" SHOP_ID="22" POS_ID="38"/>
+<record ID="2" CODE="100M02" DESCRIPTION="Palmare 2" SHOP_ID="22" POS_ID="38"/>
+<record ID="3" CODE="100M03" DESCRIPTION="Palmare 3" SHOP_ID="22" POS_ID="38"/>
+</table>

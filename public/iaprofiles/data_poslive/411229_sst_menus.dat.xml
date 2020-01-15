@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_MENUS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="27/03/2018 19:37:08">
+<recordcount>1</recordcount>
+<record ID="56" CODE="DM0009" DESCRIPTION="Dolce con vino" NOTES="" IS_VALID="1" PRINT_ITEMS="1">
+<child_records>
+<table name="SST_MENUS_VALIDITIES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_MENUS_DETAILS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="513" MENU_ID="56" SALE_ARTICLE_ID="2053"/>
+<record ID="512" MENU_ID="56" SALE_ARTICLE_ID="2052"/>
+</table>
+</child_records>
+</record>
+</table>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings multiple="true" enabled="true" log_file="%LOG_PATH%\complete_ss_sales_data.log.xml">
+<profiles>
+<profile filename="sst_sale_notes.imp.xml" description="Sale notes" />
+<profile filename="sst_sale_article_prices.imp.xml" description="Sales article prices" />
+<profile filename="sst_sale_price_list_overrides.imp.xml" description="Price lists overrides for shops" />
+<profile filename="sst_customers.imp.xml" description="Customers" />
+<profile filename="sst_fidelity.imp.xml" description="Fidelity" />
+<profile filename="sst_sale_promotion_categories.imp.xml" description="Sale promotion categories" />
+<profile filename="sst_sale_promotions.imp.xml" description="Sale promotions" />
+</profiles>
+</settings>

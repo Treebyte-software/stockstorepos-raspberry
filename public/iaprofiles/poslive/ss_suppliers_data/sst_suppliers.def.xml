@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<table name="SST_SUPPLIERS" primary_key="ID" unique_fields="CODE" ordered_by="ID" static_filter="%FILTER_SST_SUPPLIERS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="NOTES"></field>
+<field name="STREET"></field>
+<field name="ZIP_CODE"></field>
+<field name="CITY"></field>
+<field name="COUNTRY"></field>
+<field name="NATION"></field>
+<field name="INVOICE_ADDRESS"></field>
+<field name="FISCAL_CODE_A"></field>
+<field name="FISCAL_CODE_B"></field>
+<field name="PHONE_A"></field>
+<field name="PHONE_B"></field>
+<field name="FAX"></field>
+<field name="INTERNET"></field>
+<field name="EMAIL"></field>
+<field name="BUSINESS_UNIT_ID"></field>
+<field name="REFERENCE_SUPPLIER_ID"></field>
+<field name="PAYMENT_CONDITION_ID"></field>
+<field name="SUPPLIER_GROUP_ID"></field>
+<field name="COUNTRY_ID"></field>
+<field name="AREA_ID"></field>
+<field name="LEAD_TIME"></field>
+<field name="DELIVERY_WEEKDAYS"></field>
+<field name="IS_VALID"></field>
+</fields>
+<child_tables>
+<table name="SST_SUPPLIERS_REFERENCES" primary_key="ID" unique_fields="SUPPLIER_ID, DESCRIPTION" ordered_by="ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="SUPPLIER_ID"></field>
+<field name="COMPANY_ID"></field>
+<field name="AREA_ID"></field>
+<field name="DESCRIPTION"></field>
+<field name="PHONE_A"></field>
+<field name="PHONE_B"></field>
+<field name="EMAIL"></field>
+<field name="FAX"></field>
+</fields>
+</table>
+<table name="SST_BANKS_ACCOUNTS" primary_key="ID" unique_fields="SUPPLIER_ID, BANK_NAME" ordered_by="ID" static_field="supplier_id IS NOT NULL" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="SUPPLIER_ID" parent_field="ID"></field>
+<field name="BANK_NAME"></field>
+<field name="BANK_LOCATION"></field>
+<field name="ADDRESS"></field>
+<field name="IBAN_COUNTRY"></field>
+<field name="IBAN_CIN_EURO"></field>
+<field name="BBAN_CIN"></field>
+<field name="BBAN_ABI"></field>
+<field name="BBAN_CAB"></field>
+<field name="BBAN_NUMBER"></field>
+<field name="BANK_ACCOUNT"></field>
+<field name="ENABLED"></field>
+</fields>
+</table>
+</child_tables>
+</table>

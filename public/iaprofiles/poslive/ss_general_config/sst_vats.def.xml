@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<table name="SST_VATS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_VATS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="PERCENT"></field>
+<field name="COUNTRY_ID"></field>
+</fields>
+</table>

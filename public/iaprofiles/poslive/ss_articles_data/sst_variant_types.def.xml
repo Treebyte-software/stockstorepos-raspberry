@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<table name="SST_VARIANT_TYPES" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_VARIANT_TYPES%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="IS_GENERIC_VARIANT"></field>
+</fields>
+<child_tables>
+<table name="SST_VARIANT_VALUES" primary_key="ID" unique_fields="INTERNAL_CODE" ordered_by="INTERNAL_CODE">
+<fields>
+<field name="ID"></field>
+<field name="VARIANT_TYPE_ID" parent_field="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="INTERNAL_CODE"></field>
+</fields>
+</table>
+</child_tables>
+</table>

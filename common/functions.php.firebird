@@ -1,0 +1,136 @@
+<?php
+
+function getNewId($db, $table){
+	// SELECT GEN_ID('contatore') AS ID FROM RDB$DATABASE;
+	// SST_VATS
+	// __Q_____
+	$seqName = substr($table,0,2).'Q'.substr($table,3,strlen($table)-3);
+	if ($table == 'SSV_ORDER_HEADINGS') {
+		$seqName = 'SSQ_SALE_HEADINGS';
+	}
+	if ($table == 'SSV_ORDER_DETAILS') {
+		$seqName = 'SSQ_SALE_DETAILS';
+	}
+	if ($table == 'SSV_ORDER_DETAILS_NOTES') {
+		$seqName = 'SSQ_SALE_DETAILS_NOTES';
+	}
+	$systemTable = 'RDB$DATABASE';
+	$table = $db->$systemTable->select("GEN_ID(".$seqName.",1)");
+	$_array = $table->fetch();
+	foreach ($_array as $dato) {
+		$id = $dato;
+	}
+	return $id;
+}
+
+function getCurrentTimeStamp($db){
+	$systemTable = 'RDB$DATABASE';
+	$rows = $db->$systemTable;
+	$rows->select('CURRENT_TIMESTAMP(0)');
+	$currentTimeStamp='';
+	foreach ($rows as $row) {
+		$currentTimeStamp = $row['CURRENT_TIMESTAMP'];
+	}
+	return $currentTimeStamp;
+}
+
+function getFieldType($tableName, $fieldName, $db){
+
+	$returnType = 'S';
+
+	$tabRelation = 'RDB$RELATION_FIELDS';
+	$rowFields = $db->$tabRelation;
+	$rowFields->select('RDB$FIELD_SOURCE');
+	$rowFields->where('RDB$RELATION_NAME',$tableName);
+	$rowFields->and('RDB$FIELD_NAME',$fieldName);
+	$fieldSource='';
+	foreach ($rowFields as $singleRowField) {
+		$fieldSource = $singleRowField['RDB$FIELD_SOURCE'];
+	}
+	$fieldType='';
+	if ($fieldSource != '') {
+		$tabFields = 'RDB$FIELDS';
+		$rowTypes = $db->$tabFields;
+		$rowTypes->select('RDB$FIELD_TYPE');
+		$rowTypes->where('RDB$FIELD_NAME',$fieldSource);
+		$fieldType='';
+		foreach ($rowTypes as $singleRowType) {
+			$fieldType = $singleRowType['RDB$FIELD_TYPE'];
+		}
+	}
+/*
+Data type code for the column:
+7 = SMALLINT
+8 = INTEGER
+10 = FLOAT
+12 = DATE
+13 = TIME
+14 = CHAR
+16 = BIGINT
+27 = DOUBLE PRECISION
+35 = TIMESTAMP
+37 = VARCHAR
+261 = BLOB
+Codes for DECIMAL and NUMERIC are the same as for the integer types used to store them 
+*/
+	switch ($fieldType) {
+        case '12':
+			$returnType = 'D';
+			break;
+        case '13':
+			$returnType = 'H';
+			break;
+        case '35':
+			$returnType = 'T';
+			break;
+		default:
+			$returnType = 'S';
+	}
+	return $returnType;
+}
+
+function isFieldDateTime($tableName, $fieldName, $db) {
+	if (getFieldType($tableName, $fieldName, $db) == 'T') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function isFieldDate($tableName, $fieldName, $db) {
+	if (getFieldType($tableName, $fieldName, $db) == 'D') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function isFieldTime($tableName, $fieldName, $db) {
+	if (getFieldType($tableName, $fieldName, $db) == 'H') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function getFieldConvertByType($tableName, $fieldName, $value, $db) {
+    $returnValue = $value;
+    
+    if ($value == "") {
+        $returnValue = null;
+    } elseif (isFieldDateTime($tableName, $fieldName, $db)) {
+        $returnValue = substr($value,6,2).'.'.substr($value,4,2).'.'.substr($value,0,4).' '.substr($value,8,2).':'.substr($value,10,2).':'.substr($value,12,2);
+        //$returnValue = substr($value,0,4).'.'.substr($value,4,2).'.'.substr($value,6,2).' '.substr($value,8,2).':'.substr($value,10,2).':'.substr($value,12,2);
+    } elseif (isFieldDate($tableName, $fieldName, $db)) {
+        $returnValue = substr($value,6,2).'.'.substr($value,4,2).'.'.substr($value,0,4);
+        //$returnValue = substr($value,0,4).'.'.substr($value,4,2).'.'.substr($value,6,2);
+    } elseif (isFieldTime($tableName, $fieldName, $db)) {
+        $returnValue = substr($value,0,2).':'.substr($value,2,2).':'.substr($value,4,2);
+    } else {
+        $strano = chr(194).chr(167).chr(194).chr(167);  // §§
+        $acapo = "\n";
+        $returnValue = str_replace($strano,$acapo,$value);
+    }
+    
+    return $returnValue;
+}

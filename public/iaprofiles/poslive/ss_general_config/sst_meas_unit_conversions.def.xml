@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<table name="SST_MEAS_UNIT_CONVERSIONS" primary_key="ID" unique_fields="MEAS_UNIT_A_ID,MEAS_UNIT_B_ID" ordered_by="MEAS_UNIT_A_ID,MEAS_UNIT_B_ID" static_filter="%FILTER_SST_MEAS_UNIT_CONVERSIONS%">
+<fields>
+<field name="ID"></field>
+<field name="MEAS_UNIT_A_ID"></field>
+<field name="CONVERSION_FACTOR_A"></field>
+<field name="MEAS_UNIT_B_ID"></field>
+<field name="CONVERSION_FACTOR_B"></field>
+</fields>
+</table>

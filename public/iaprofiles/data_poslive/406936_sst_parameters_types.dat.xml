@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_PARAMETERS_TYPES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="06/12/2017 09:51:48">
+<recordcount>1</recordcount>
+<record ID="64" CODE="511" DESCRIPTION="Tipi di vendita non fiscali" PARAM_TYPE="5" SQL_EXPRESSION="SELECT @@SELECT FROM sst_sale_types WHERE exclude_on_statistics = 1 @@ORDER_CODE" IS_SYSTEM="0" SQL_FIELD_CAPTIONS=""/>
+</table>

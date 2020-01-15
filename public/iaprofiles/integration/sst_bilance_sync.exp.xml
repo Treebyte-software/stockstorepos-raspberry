@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<settings>
+<profile description="Export articoli per aggiornamento bilance" last_execution="29/11/2009 21.00.01" enabled="true" />
+<host_db type="%LOCALHOST_DB_TYPE%" connection="%LOCALHOST_DB_CONNECTION%" dictionary="%LOCALHOST_DICTIONARY%" structure="sst_bilance_sync.def.xml" />
+<data_file name="%DATA_PATH%\sst_bilance_sync.dat.xml" append_export="false" />
+<transformations>
+<transformation>
+  <event>after_export</event>
+  <input>%DATA_PATH%\sst_bilance_sync.dat.xml</input>
+  <file>bilance_sync.xsl</file>
+  <output>C:\WinSwGx-NET\BZ00VARP.DAT</output>
+</transformation>
+</transformations>
+<log_file name="%LOG_PATH%\sst_bilance_sync.log.xml" append="true" />
+<options bulk_import="false" generate_ids="true" exists_behaviour="ukey" on_detail_error="invalidate_current" />
+</settings>

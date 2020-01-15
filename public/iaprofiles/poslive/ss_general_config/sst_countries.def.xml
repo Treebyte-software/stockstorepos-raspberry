@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<table name="SST_COUNTRIES" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_COUNTRIES%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="CURRENCY_ID"></field>
+</fields>
+<child_tables>
+<table name="SST_COUNTRY_AREAS" primary_key="ID" unique_fields="COUNTRY_ID, CODE" ordered_by="ID">
+<fields>
+<field name="ID"></field>
+<field name="COUNTRY_ID" parent_field="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+</fields>
+</table>
+</child_tables>
+</table>

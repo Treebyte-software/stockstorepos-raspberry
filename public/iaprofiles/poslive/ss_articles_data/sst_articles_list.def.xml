@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<table name="SST_ARTICLES_LIST" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_ARTICLES_LIST%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="COMPANY_ID"></field>
+<field name="WAREHOUSE_ID"></field>
+</fields>
+<child_tables>
+<table name="SST_ARTICLES_LIST_ITEMS" primary_key="ID" unique_fields="ARTICLE_LIST_ID, ARTICLE_ID" ordered_by="ARTICLE_LIST_ID, ARTICLE_ID">
+<fields>
+<field name="ID"></field>
+<field name="ARTICLE_LIST_ID" parent_field="ID"></field>
+<field name="ARTICLE_ID"></field>
+</fields>
+</table>
+</child_tables>
+</table>

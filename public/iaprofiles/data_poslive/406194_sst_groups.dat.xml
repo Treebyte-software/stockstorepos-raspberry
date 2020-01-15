@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_GROUPS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="17/11/2017 16:22:12">
+<recordcount>24</recordcount>
+<record CODE="10" INTERNAL_CODE="90000110-10" DESCRIPTION="FOOD" NOTES="" PARENT_GROUP_ID="6" CATEGORY_GROUP_ID="6" GROUP_LEVEL="1" DONT_HAVE_VARIANTS="0" ID="67">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="20" INTERNAL_CODE="90000110-20" DESCRIPTION="BEVERAGE" NOTES="" PARENT_GROUP_ID="6" CATEGORY_GROUP_ID="6" GROUP_LEVEL="1" DONT_HAVE_VARIANTS="0" ID="74">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="30" INTERNAL_CODE="90000110-30" DESCRIPTION="CAFFETTERIA" NOTES="" PARENT_GROUP_ID="6" CATEGORY_GROUP_ID="6" GROUP_LEVEL="1" DONT_HAVE_VARIANTS="0" ID="82">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="40" INTERNAL_CODE="90000110-40" DESCRIPTION="SCONTI" NOTES="" PARENT_GROUP_ID="6" CATEGORY_GROUP_ID="6" GROUP_LEVEL="1" DONT_HAVE_VARIANTS="0" ID="84">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="50" INTERNAL_CODE="90000110-50" DESCRIPTION="VARIAZIONI" NOTES="" PARENT_GROUP_ID="6" CATEGORY_GROUP_ID="6" GROUP_LEVEL="1" DONT_HAVE_VARIANTS="0" ID="86">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="60" INTERNAL_CODE="90000110-60" DESCRIPTION="SERVIZI" NOTES="" PARENT_GROUP_ID="6" CATEGORY_GROUP_ID="6" GROUP_LEVEL="1" DONT_HAVE_VARIANTS="0" ID="88">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="110" INTERNAL_CODE="90000110-110" DESCRIPTION="Taglieri" NOTES="" PARENT_GROUP_ID="67" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="68">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="120" INTERNAL_CODE="90000110-120" DESCRIPTION="Degustazione tigelle" NOTES="" PARENT_GROUP_ID="67" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="69">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="130" INTERNAL_CODE="90000110-130" DESCRIPTION="Tigelle singole" NOTES="" PARENT_GROUP_ID="67" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="70">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="140" INTERNAL_CODE="90000110-140" DESCRIPTION="Insalatone" NOTES="" PARENT_GROUP_ID="67" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="71">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="150" INTERNAL_CODE="90000110-150" DESCRIPTION="Farro" NOTES="" PARENT_GROUP_ID="67" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="72">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="160" INTERNAL_CODE="90000110-160" DESCRIPTION="Dolci" NOTES="" PARENT_GROUP_ID="67" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="73">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="210" INTERNAL_CODE="90000110-210" DESCRIPTION="Bevande" NOTES="" PARENT_GROUP_ID="74" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="75">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="220" INTERNAL_CODE="90000110-220" DESCRIPTION="Birre" NOTES="" PARENT_GROUP_ID="74" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="76">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="230" INTERNAL_CODE="90000110-230" DESCRIPTION="Calice Vino" NOTES="" PARENT_GROUP_ID="74" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="77">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="240" INTERNAL_CODE="90000110-240" DESCRIPTION="Bottiglia Vino" NOTES="" PARENT_GROUP_ID="74" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="78">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="250" INTERNAL_CODE="90000110-250" DESCRIPTION="Aperitivo" NOTES="" PARENT_GROUP_ID="74" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="79">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="170" INTERNAL_CODE="90000110-170" DESCRIPTION="Tramezzini" NOTES="" PARENT_GROUP_ID="67" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="80">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="260" INTERNAL_CODE="90000110-260" DESCRIPTION="Liquori e Amari" NOTES="" PARENT_GROUP_ID="74" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="81">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="310" INTERNAL_CODE="90000110-310" DESCRIPTION="Caffe" NOTES="" PARENT_GROUP_ID="82" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="83">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="410" INTERNAL_CODE="90000110-410" DESCRIPTION="Sconto tessera fedeltà" NOTES="" PARENT_GROUP_ID="84" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="85">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="510" INTERNAL_CODE="90000110-510" DESCRIPTION="VARIAZIONI" NOTES="" PARENT_GROUP_ID="86" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="87">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="610" INTERNAL_CODE="90000110-610" DESCRIPTION="SERVIZI" NOTES="" PARENT_GROUP_ID="88" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="89">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record CODE="180" INTERNAL_CODE="90000110-180" DESCRIPTION="Zuppe" NOTES="" PARENT_GROUP_ID="67" CATEGORY_GROUP_ID="6" GROUP_LEVEL="2" DONT_HAVE_VARIANTS="0" ID="91">
+<child_records>
+<table name="SST_VARIANT_SETS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+</table>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<table name="SST_CURRENCIES" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_CURRENCIES%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="ACRONYM"></field>
+<field name="BELONGS_TO_EURO"></field>
+<field name="REFERENCE_VALUE"></field>
+<field name="CHANGE"></field>
+<field name="LAST_UPDATE_DATE"></field>
+</fields>
+</table>

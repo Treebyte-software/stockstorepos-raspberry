@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_MENUS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="31/03/2018 21:45:15">
+<recordcount>2</recordcount>
+<record ID="54" CODE="DM0007" DESCRIPTION="Bevanda 1" NOTES="" IS_VALID="0" PRINT_ITEMS="0">
+<child_records>
+<table name="SST_MENUS_VALIDITIES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_MENUS_DETAILS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="486" MENU_ID="54" SALE_ARTICLE_ID="1972"/>
+<record ID="489" MENU_ID="54" SALE_ARTICLE_ID="1858"/>
+<record ID="558" MENU_ID="54" SALE_ARTICLE_ID="1839"/>
+<record ID="559" MENU_ID="54" SALE_ARTICLE_ID="1840"/>
+<record ID="560" MENU_ID="54" SALE_ARTICLE_ID="1841"/>
+<record ID="561" MENU_ID="54" SALE_ARTICLE_ID="1842"/>
+<record ID="562" MENU_ID="54" SALE_ARTICLE_ID="1843"/>
+<record ID="563" MENU_ID="54" SALE_ARTICLE_ID="1844"/>
+<record ID="564" MENU_ID="54" SALE_ARTICLE_ID="1845"/>
+<record ID="565" MENU_ID="54" SALE_ARTICLE_ID="1846"/>
+<record ID="566" MENU_ID="54" SALE_ARTICLE_ID="1868"/>
+<record ID="567" MENU_ID="54" SALE_ARTICLE_ID="2035"/>
+<record ID="568" MENU_ID="54" SALE_ARTICLE_ID="1847"/>
+<record ID="569" MENU_ID="54" SALE_ARTICLE_ID="1848"/>
+<record ID="570" MENU_ID="54" SALE_ARTICLE_ID="1849"/>
+<record ID="571" MENU_ID="54" SALE_ARTICLE_ID="1850"/>
+<record ID="572" MENU_ID="54" SALE_ARTICLE_ID="1851"/>
+<record ID="573" MENU_ID="54" SALE_ARTICLE_ID="1858"/>
+<record ID="574" MENU_ID="54" SALE_ARTICLE_ID="1860"/>
+<record ID="575" MENU_ID="54" SALE_ARTICLE_ID="1972"/>
+<record ID="576" MENU_ID="54" SALE_ARTICLE_ID="2014"/>
+<record ID="577" MENU_ID="54" SALE_ARTICLE_ID="2015"/>
+<record ID="578" MENU_ID="54" SALE_ARTICLE_ID="2000"/>
+</table>
+</child_records>
+</record>
+<record ID="55" CODE="DM0008" DESCRIPTION="Bevanda 2" NOTES="" IS_VALID="1" PRINT_ITEMS="0">
+<child_records>
+<table name="SST_MENUS_VALIDITIES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_MENUS_DETAILS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="491" MENU_ID="55" SALE_ARTICLE_ID="1839"/>
+<record ID="492" MENU_ID="55" SALE_ARTICLE_ID="1840"/>
+<record ID="493" MENU_ID="55" SALE_ARTICLE_ID="1841"/>
+<record ID="494" MENU_ID="55" SALE_ARTICLE_ID="1842"/>
+<record ID="495" MENU_ID="55" SALE_ARTICLE_ID="1843"/>
+<record ID="496" MENU_ID="55" SALE_ARTICLE_ID="1844"/>
+<record ID="497" MENU_ID="55" SALE_ARTICLE_ID="1845"/>
+<record ID="498" MENU_ID="55" SALE_ARTICLE_ID="1846"/>
+<record ID="499" MENU_ID="55" SALE_ARTICLE_ID="1847"/>
+<record ID="500" MENU_ID="55" SALE_ARTICLE_ID="1848"/>
+<record ID="501" MENU_ID="55" SALE_ARTICLE_ID="1849"/>
+<record ID="502" MENU_ID="55" SALE_ARTICLE_ID="1850"/>
+<record ID="503" MENU_ID="55" SALE_ARTICLE_ID="1851"/>
+<record ID="504" MENU_ID="55" SALE_ARTICLE_ID="1972"/>
+<record ID="505" MENU_ID="55" SALE_ARTICLE_ID="2014"/>
+<record ID="506" MENU_ID="55" SALE_ARTICLE_ID="2015"/>
+<record ID="507" MENU_ID="55" SALE_ARTICLE_ID="1858"/>
+<record ID="508" MENU_ID="55" SALE_ARTICLE_ID="1860"/>
+<record ID="579" MENU_ID="55" SALE_ARTICLE_ID="2000"/>
+<record ID="527" MENU_ID="55" SALE_ARTICLE_ID="1868"/>
+<record ID="528" MENU_ID="55" SALE_ARTICLE_ID="2035"/>
+</table>
+</child_records>
+</record>
+</table>

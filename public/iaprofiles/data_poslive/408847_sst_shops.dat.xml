@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_SHOPS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="15/01/2018 18:04:04">
+<recordcount>1</recordcount>
+<record ID="22" CODE="100" DESCRIPTION="Sosta Emiliana MO" NOTES="" CLOSING_TYPE="2" END_OF_DAY="18991230020000" COMPANY_ID="24" OPENED="0" FISCAL_CODE_A="03536430362" FISCAL_CODE_B="03536430362" REA_CODE="" REA_PROGR="" CLOSING_TEMPLATE_ID="3" STREET="" ZIP_CODE="" CITY="" COUNTRY="" NATION="" PHONE_A="" PHONE_B="" FAX="" INTERNET="" EMAIL="" MANAGE_DRAWER_ON_OPENING="0" MANAGE_DRAWER_ON_CLOSING="0" SHOP_IDENTIFIER="">
+<child_records>
+<table name="SST_SHOPS_OPENINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+</table>

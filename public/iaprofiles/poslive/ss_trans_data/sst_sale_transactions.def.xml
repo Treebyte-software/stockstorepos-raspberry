@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<table name="SST_SALE_TRANSACTIONS" primary_key="ID" unique_fields="" ordered_by="ID" static_filter="(%FILTER_SST_SALE_TRANSACTIONS%) AND (warehouse_id IN (SELECT warehouse_id FROM plv_pos_locations WHERE location_name = '%FILTER_LOCATION_NAME%'))">
+<fields>
+<field name="ID"></field>
+<field name="CAUSAL_ID"></field>
+<field name="WAREHOUSE_ID"></field>
+<field name="ARTICLE_ID"></field>
+<field name="CURRENCY_ID"></field>
+<field name="CHANGE"></field>
+<field name="CHANGE_DATE"></field>
+<field name="TRANSACTION_DATE"></field>
+<field name="QUANTITY"></field>
+<field name="COST"></field>
+<field name="OPERATOR_ID"></field>
+<field name="DETAIL_ID"></field>
+<field name="DOCUMENT_STATE_ID"></field>
+<field name="CUSTOMER_ID" source_table="SST_CUSTOMERS" lookup_key="ID" return_fields="CODE"></field> 
+<field name="SHOP_ID"></field>
+<field name="POS_ID"></field>
+<field name="COMPANY_ID"></field>
+<field name="ROW_TOTAL_COST"></field>
+</fields>
+<child_tables>
+<table name="SST_LOTS_TRANSACTIONS" primary_key="ID" unique_fields="" ordered_by="ID">
+<fields>
+<field name="ID"></field>
+<field name="SALE_TRANSACTION_ID" parent_field="ID"></field>
+<field name="LOT_ID"></field>
+<field name="QUANTITY"></field>
+<field name="COST"></field>
+<field name="CAUSAL_ID"></field>
+<field name="EXPIRED"></field>
+</fields>
+</table>
+</child_tables>
+</table>

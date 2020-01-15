@@ -1,0 +1,24 @@
+<?xmlversion = "1.0"?>
+<table name="SST_REPORTS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_REPORTS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="NOTES"></field>
+<field name="CATEGORY_ID"></field>
+<field name="DATASOURCE_ID"></field>
+<field name="LAYOUT_ID"></field>
+<field name="VISIBILITY_LEVEL"></field>
+<field name="IS_SYSTEM"></field>
+<field name="ENABLED"></field>
+<field name="VISIBILITY_BY_MODULE"></field>
+<field name="SAVING_PATH"></field>
+<field name="DEFAULT_OPERATION"></field>
+<field name="PARENT_REPORT_ID"></field>
+<field name="NUM_COPIES"></field>
+<field name="CHECK_EXPRESSION"></field>
+<field name="ERROR_MESSAGE"></field>
+<field name="BEFORE_REPORT_PROC"></field>
+<field name="AFTER_REPORT_PROC"></field>
+</fields>
+</table>

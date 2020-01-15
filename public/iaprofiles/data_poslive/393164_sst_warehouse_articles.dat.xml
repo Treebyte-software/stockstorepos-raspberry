@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_WAREHOUSE_ARTICLES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="27/03/2017 17:36:11">
+<recordcount>5</recordcount>
+<record ID="1853" CODE="BIR005" DESCRIPTION="Birra Isaac" FASTCODE="" NOTES="" GROUP_A_ID="76" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20170327173458" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="133182" ARTICLE_ID="1853" GROUP_IDENTIFIER="1" GROUP_ID="6" GROUP_LEVEL="0"/>
+<record ID="133183" ARTICLE_ID="1853" GROUP_IDENTIFIER="1" GROUP_ID="74" GROUP_LEVEL="1"/>
+<record ID="133184" ARTICLE_ID="1853" GROUP_IDENTIFIER="1" GROUP_ID="76" GROUP_LEVEL="2"/>
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="625" ARTICLE_ID="1853" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+</child_records>
+</record>
+<record ID="1854" CODE="BIR006" DESCRIPTION="Birra Super" FASTCODE="" NOTES="" GROUP_A_ID="76" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20170327173506" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="133185" ARTICLE_ID="1854" GROUP_IDENTIFIER="1" GROUP_ID="6" GROUP_LEVEL="0"/>
+<record ID="133186" ARTICLE_ID="1854" GROUP_IDENTIFIER="1" GROUP_ID="74" GROUP_LEVEL="1"/>
+<record ID="133187" ARTICLE_ID="1854" GROUP_IDENTIFIER="1" GROUP_ID="76" GROUP_LEVEL="2"/>
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="626" ARTICLE_ID="1854" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+</child_records>
+</record>
+<record ID="1855" CODE="BIR007" DESCRIPTION="Birra Nora" FASTCODE="" NOTES="" GROUP_A_ID="76" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20170327173513" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="133188" ARTICLE_ID="1855" GROUP_IDENTIFIER="1" GROUP_ID="6" GROUP_LEVEL="0"/>
+<record ID="133189" ARTICLE_ID="1855" GROUP_IDENTIFIER="1" GROUP_ID="74" GROUP_LEVEL="1"/>
+<record ID="133190" ARTICLE_ID="1855" GROUP_IDENTIFIER="1" GROUP_ID="76" GROUP_LEVEL="2"/>
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="627" ARTICLE_ID="1855" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+</child_records>
+</record>
+<record ID="1856" CODE="BIR008" DESCRIPTION="Birra Wyan" FASTCODE="" NOTES="" GROUP_A_ID="76" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20170327173520" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="133191" ARTICLE_ID="1856" GROUP_IDENTIFIER="1" GROUP_ID="6" GROUP_LEVEL="0"/>
+<record ID="133192" ARTICLE_ID="1856" GROUP_IDENTIFIER="1" GROUP_ID="74" GROUP_LEVEL="1"/>
+<record ID="133193" ARTICLE_ID="1856" GROUP_IDENTIFIER="1" GROUP_ID="76" GROUP_LEVEL="2"/>
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="628" ARTICLE_ID="1856" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+</child_records>
+</record>
+<record ID="1857" CODE="BIR009" DESCRIPTION="Birra Open" FASTCODE="" NOTES="" GROUP_A_ID="76" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20170327173528" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="133194" ARTICLE_ID="1857" GROUP_IDENTIFIER="1" GROUP_ID="6" GROUP_LEVEL="0"/>
+<record ID="133195" ARTICLE_ID="1857" GROUP_IDENTIFIER="1" GROUP_ID="74" GROUP_LEVEL="1"/>
+<record ID="133196" ARTICLE_ID="1857" GROUP_IDENTIFIER="1" GROUP_ID="76" GROUP_LEVEL="2"/>
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="629" ARTICLE_ID="1857" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+</child_records>
+</record>
+</table>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<table name="SST_SALE_PAYMENTS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_SALE_PAYMENTS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="NOTES"></field>
+<field name="PAYMENT_TYPE"></field>
+<field name="MAX_AMOUNT"></field>
+<field name="COUNT_IN_DRAWER"></field>
+<field name="COUNT_IN_REPORT"></field>
+</fields>
+<child_tables>
+<table name="SST_SALE_PAYMENTS_VALUES" primary_key="ID" unique_fields="CODE" ordered_by="CODE" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="SALE_PAYMENT_ID" parent_field="ID"></field>
+<field name="CURRENCY_ID"></field>
+<field name="REFERENCE_VALUE"></field>
+<field name="IMAGE_ID"></field>
+<field name="IS_VALID"></field>
+</fields>
+</table>
+</child_tables>
+</table>

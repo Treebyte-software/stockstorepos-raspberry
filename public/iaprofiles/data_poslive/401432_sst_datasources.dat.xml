@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_DATASOURCES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="25/08/2017 11:41:05">
+<recordcount>1</recordcount>
+<record ID="41" CODE="401" DESCRIPTION="Dettaglio del venduto" USE_TYPE="1" IS_SYSTEM="0">
+<child_records>
+<table name="SST_DATASOURCE_PARAMETERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="277" DATASOURCE_ID="41" PARAM_NAME="Data inizio" PARAM_TYPE_ID="3" VARIABLE_NAME=":start_date" DEFAULT_VALUE="" MANDATORY="1" IS_VISIBLE="1" IS_SYSTEM="1"/>
+<record ID="278" DATASOURCE_ID="41" PARAM_NAME="Data fine" PARAM_TYPE_ID="3" VARIABLE_NAME=":end_date" DEFAULT_VALUE="" MANDATORY="1" IS_VISIBLE="1" IS_SYSTEM="1"/>
+<record ID="279" DATASOURCE_ID="41" PARAM_NAME="Negozio" PARAM_TYPE_ID="21" VARIABLE_NAME=":shop_id" DEFAULT_VALUE="" MANDATORY="0" IS_VISIBLE="1" IS_SYSTEM="1"/>
+<record ID="280" DATASOURCE_ID="41" PARAM_NAME="Cassa" PARAM_TYPE_ID="22" VARIABLE_NAME=":pos_id" DEFAULT_VALUE="" MANDATORY="0" IS_VISIBLE="1" IS_SYSTEM="1"/>
+<record ID="281" DATASOURCE_ID="41" PARAM_NAME="Operatore" PARAM_TYPE_ID="44" VARIABLE_NAME=":t_operator_id" DEFAULT_VALUE="" MANDATORY="0" IS_VISIBLE="1" IS_SYSTEM="1"/>
+<record ID="282" DATASOURCE_ID="41" PARAM_NAME="Venditore" PARAM_TYPE_ID="44" VARIABLE_NAME=":seller_id" DEFAULT_VALUE="" MANDATORY="0" IS_VISIBLE="1" IS_SYSTEM="1"/>
+<record ID="283" DATASOURCE_ID="41" PARAM_NAME="Cliente" PARAM_TYPE_ID="23" VARIABLE_NAME=":customer_id" DEFAULT_VALUE="" MANDATORY="0" IS_VISIBLE="1" IS_SYSTEM="1"/>
+<record ID="284" DATASOURCE_ID="41" PARAM_NAME="Tipo di vendita" PARAM_TYPE_ID="53" VARIABLE_NAME=":sale_type_id" DEFAULT_VALUE="" MANDATORY="0" IS_VISIBLE="1" IS_SYSTEM="1"/>
+<record ID="285" DATASOURCE_ID="41" PARAM_NAME="Causale di vendita" PARAM_TYPE_ID="54" VARIABLE_NAME=":sale_causal_id" DEFAULT_VALUE="" MANDATORY="0" IS_VISIBLE="1" IS_SYSTEM="1"/>
+<record ID="289" DATASOURCE_ID="41" PARAM_NAME="Referenza" PARAM_TYPE_ID="16" VARIABLE_NAME=":reference_id" DEFAULT_VALUE="" MANDATORY="0" IS_VISIBLE="1" IS_SYSTEM="1"/>
+<record ID="503" DATASOURCE_ID="41" PARAM_NAME="Articolo" PARAM_TYPE_ID="25" VARIABLE_NAME=":sale_article_id" DEFAULT_VALUE="" MANDATORY="0" IS_VISIBLE="1" IS_SYSTEM="0"/>
+<record ID="514" DATASOURCE_ID="41" PARAM_NAME="Non fiscali" PARAM_TYPE_ID="4" VARIABLE_NAME=":exclude" DEFAULT_VALUE="" MANDATORY="0" IS_VISIBLE="1" IS_SYSTEM="0"/>
+</table>
+</child_records>
+</record>
+</table>

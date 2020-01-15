@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<settings>
+<profile description="sst_fidelity_transactions" last_execution="-NOTHING-" enabled="true" />
+<local_db type="%LOCALHOST_DB_TYPE%" connection="%LOCALHOST_DB_CONNECTION%" dictionary="%LOCALHOST_DICTIONARY%" structure="sst_fidelity_transactions.def.xml" />
+<data_file name="%DATA_PATH%\sst_fidelity_transactions.dat.xml" append_export="true" />
+<log_file name="%LOG_PATH%\sst_fidelity_transactions.log.xml" append="true" />
+<options bulk_import="false" generate_ids="true" exists_behaviour="ukey" on_detail_error="invalidate_current" />
+</settings>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<table name="SST_FIDELITY" primary_key="ID" unique_fields="CODE" ordered_by="" static_filter="%FILTER_SST_FIDELITY%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="VALIDITY_DATE"></field>
+<field name="EXPIRATION_DATE"></field>
+<field name="DAYS_OF_VALIDITY"></field>
+<field name="IS_VALID"></field>
+</fields>
+</child_tables>
+</table>

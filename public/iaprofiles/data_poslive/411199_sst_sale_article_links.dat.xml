@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_SALE_ARTICLE_LINKS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="27/03/2018 19:10:03">
+<recordcount>3</recordcount>
+<record ID="1141" SALE_ARTICLE_ID="2047" ARTICLE_ID="" BASE_LIST_ID="" MENU_ID="52" UNLOADABLE="1"/>
+<record ID="1142" SALE_ARTICLE_ID="2048" ARTICLE_ID="" BASE_LIST_ID="" MENU_ID="53" UNLOADABLE="1"/>
+<record ID="1143" SALE_ARTICLE_ID="2049" ARTICLE_ID="" BASE_LIST_ID="" MENU_ID="54" UNLOADABLE="1"/>
+</table>

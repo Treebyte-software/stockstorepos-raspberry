@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<settings multiple="true" enabled="true" log_file="%LOG_PATH%\complete_ss_company_data.log.xml">
+<profiles>
+<profile filename="sst_shops.exp.xml" description="Shops" />
+<profile filename="sst_production_centers.exp.xml" description="Production centers" />
+<profile filename="sst_point_of_sales.exp.xml" description="Point of sales" />
+<profile filename="sst_mobile_point_of_sales.exp.xml" description="Mobile point of sales" />
+<profile filename="plt_pos_locations.exp.xml" description="POSLive POS locations" />
+<profile filename="sst_system_settings.exp.xml" description="System settings" />
+<profile filename="sst_halls.exp.xml" description="Halls and lunch tables" />
+</profiles>
+</settings>

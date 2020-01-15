@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<table name="SST_SALE_HEADINGS" primary_key="ID" unique_fields="POS_ID,TRANSACTION_NUM,TRANSACTION_DATE" ordered_by="" static_filter="ID=%ID%">
+<fields>
+<field name="ID"></field>
+<field name="POS_ID"></field>
+<field name="SHOP_ID"></field>
+<field name="TRANSACTION_NUM"></field>
+<field name="TRANSACTION_DATE"></field>
+<field name="INVOICE_NUM"></field>
+<field name="RECEIPT_NUM"></field>
+<field name="SALE_TYPE_ID"></field>
+<field name="CARD_NUM"></field>
+</fields>
+</table>

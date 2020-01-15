@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings multiple="true" enabled="true" log_file="%LOG_PATH%\complete_ss_sales_data.log.xml">
+<profiles>
+<profile filename="sst_sale_causals.exp.xml" description="Sale causals" />
+<profile filename="sst_sale_price_lists.exp.xml" description="Sales price lists" />
+<profile filename="sst_customers_groups.exp.xml" description="Customers groups" />
+<profile filename="sst_customers_cards_types.exp.xml" description="Customers cards types" />
+<profile filename="sst_sale_discounts.exp.xml" description="Sale discounts" />
+</profiles>
+</settings>

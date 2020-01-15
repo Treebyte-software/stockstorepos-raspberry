@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<table name="SST_HALLS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_HALLS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="NOTES"></field>
+<field name="SHOP_ID"></field>
+</fields>
+<child_tables>
+<table name="SST_LUNCH_TABLES" primary_key="ID" unique_fields="HALL_ID, CODE" ordered_by="ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="HALL_ID" parent_field="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="NOTES"></field>
+<field name="GUESTS_NUM"></field>
+</fields>
+<child_tables>
+<table name="SST_LUNCH_TABLES_SITUATION" primary_key="ID" unique_fields="LUNCH_TABLE_ID" ordered_by="ID">
+<fields>
+<field name="ID"></field>
+<field name="LUNCH_TABLE_ID" parent_field="ID"></field>
+</fields>
+</table>
+</child_tables>
+</table>
+</child_tables>
+</table>

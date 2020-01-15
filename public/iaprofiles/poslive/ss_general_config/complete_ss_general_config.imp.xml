@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<settings multiple="true" enabled="true" log_file="%LOG_PATH%\omplete_ss_general_config.log.xml">
+<profiles>
+<profile filename="sst_custom_user_table_a.imp.xml" description="Custom data A" />
+<profile filename="sst_custom_user_table_b.imp.xml" description="Custom data B" />
+<profile filename="sst_custom_user_table_c.imp.xml" description="Custom data C" />
+<profile filename="sst_custom_user_table_d.imp.xml" description="Custom data D" />
+<profile filename="sst_custom_user_table_e.imp.xml" description="Custom data E" />
+<profile filename="sst_image_groups.imp.xml" description="Images groups" />
+<profile filename="sst_images.imp.xml" description="Images" />
+<profile filename="sst_currencies.imp.xml" description="Currencies" />
+<profile filename="sst_countries.imp.xml" description="Countries" />
+<profile filename="sst_time_bands.imp.xml" description="Time bands" />
+<profile filename="sst_age_groups.imp.xml" description="Age groups" />
+<profile filename="sst_business_units.imp.xml" description="Business units" />
+<profile filename="sst_vats.imp.xml" description="Vats" />
+<profile filename="sst_credit_cards.imp.xml" description="Credit cards" />
+<profile filename="sst_payment_conditions.imp.xml" description="Payment conditions" />
+<profile filename="sst_sale_payments.imp.xml" description="Sale payments" />
+<profile filename="sst_meas_units.imp.xml" description="Meas units" />
+<profile filename="sst_meas_unit_conversions.imp.xml" description="Meas units conversion factor" />
+<profile filename="sst_stock_fields.imp.xml" description="Stock fields" />
+<profile filename="sst_document_states.imp.xml" description="Document states" />
+<profile filename="sst_document_types.imp.xml" description="Document types" />
+<profile filename="sst_causals.imp.xml" description="Causals" />
+<profile filename="sst_courses.imp.xml" description="Courses" />
+<profile filename="sst_lunch_tables_states.imp.xml" description="Lunch tables states" />
+</profiles>
+</settings>

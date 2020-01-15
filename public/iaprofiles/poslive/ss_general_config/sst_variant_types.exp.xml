@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<settings>
+<profile description="sst_variant_types" last_execution="09/04/2008 14.51.24" enabled="true" />
+<host_db type="%LOCALHOST_DB_TYPE%" connection="%LOCALHOST_DB_CONNECTION%" dictionary="%LOCALHOST_DICTIONARY%" structure="sst_variant_types.def.xml" />
+<data_file name="%DATA_PATH%\sst_variant_types.dat.xml" append_export="true" />
+<log_file name="%LOG_PATH%\sst_variant_types.log.xml" append="true" />
+<options bulk_import="false" generate_ids="false" exists_behaviour="pkey" on_detail_error="invalidate_current" />
+</settings>

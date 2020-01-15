@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<table name="SST_ARTICLES_REPORTS" primary_key="ID" unique_fields="ARTICLE_ID, REPORT_ID, ORDER_NUM" ordered_by="ID" deletion_type="all">
+<fields>
+<field name="ID"></field>
+<field name="ARTICLE_ID"></field>
+<field name="REPORT_ID"></field>
+<field name="ORDER_NUM"></field>
+</fields>
+</table>

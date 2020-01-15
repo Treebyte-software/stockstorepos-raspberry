@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<table name="SST_SALE_ARTICLE_LINKS" primary_key="ID" unique_fields="SALE_ARTICLE_ID" ordered_by="SALE_ARTICLE_ID" static_filter="%FILTER_SST_SALE_ARTICLE_LINKS%">
+<fields>
+<field name="ID"></field>
+<field name="SALE_ARTICLE_ID"></field>
+<field name="ARTICLE_ID"></field>
+<field name="BASE_LIST_ID"></field>
+<field name="MENU_ID"></field>
+<field name="UNLOADABLE"></field>
+</fields>
+</table>

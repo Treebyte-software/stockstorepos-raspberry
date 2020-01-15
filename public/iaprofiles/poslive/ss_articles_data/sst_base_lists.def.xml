@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<table name="SST_BASE_LISTS" primary_key="ID" unique_fields="CODE" ordered_by="ID" static_filter="%FILTER_SST_BASE_LISTS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="NOTES"></field>
+<field name="IS_VALID"></field>
+<field name="AVERAGE_COST"></field>
+<field name="LAST_UPDATE_DATE"></field>
+<field name="RECIPE_GROUP_ID"></field>
+<field name="RECIPE_CLASS_ID"></field>
+<field name="RECIPE_TYPOLOGY_ID"></field>
+<field name="RECIPE_SEASON_ID"></field>
+<field name="RECIPE_PROVENANCE_ID"></field>
+<field name="ADDITIONAL_COST"></field>
+<field name="PORTION_NUM"></field>
+<field name="PRODUCED_QUANTITY"></field>
+<field name="PRODUCED_MEAS_UNIT_ID"></field>
+<field name="RECIPE_DIFFICULTY"></field>
+<field name="SERVE"></field>
+<field name="IMAGE" external_file="false"></field>
+</fields>
+<child_tables>
+<table name="SST_BASE_LIST_ARTICLES" primary_key="ID" unique_fields="BASE_LIST_ID, ARTICLE_ID" ordered_by="ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="BASE_LIST_ID" parent_field="ID"></field>
+<field name="REFERENCE_BASE_LIST_ID"></field>
+<field name="ARTICLE_ID"></field>
+<field name="WORKING_ID"></field>
+<field name="MEAS_UNIT_ID"></field>
+<field name="CONVERSION_FACTOR"></field>
+<field name="QUANTITY"></field>
+<field name="PRODUCTION_SURPLUS"></field>
+<field name="SURPLUS_IN_PERCENTUAL"></field>
+<field name="PRODUCED_QUANTITY"></field>
+<field name="PRODUCED_MEAS_UNIT_ID"></field>
+<field name="DONT_UNLOAD"></field>
+<field name="ORDER_NUM"></field>
+<field name="COMPANY_ID"></field>
+<field name="SUBST_ARTICLE_ID"></field>
+<field name="ROW_COST"></field>
+<field name="ROW_COST_TYPE"></field>
+<field name="VAT_ROW_COST"></field>
+<field name="GROSS_ROW_COST"></field>
+<field name="NOTES"></field>
+</fields>
+</table>
+<table name="SST_BASE_LIST_INGREDIENTS" primary_key="ID" unique_fields="BASE_LIST_ID,INGREDIENT_ID,INGREDIENT_LEVEL" ordered_by="ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="BASE_LIST_ID" parent_field="ID"></field>
+<field name="ARTICLE_ID"></field>
+<field name="MEAS_UNIT_ID"></field>
+<field name="CONVERSION_FACTOR"></field>
+<field name="QUANTITY"></field>
+<field name="SURPLUS_QUANTITY"></field>
+<field name="USE_QUANTITY"></field>
+<field name="INGREDIENT_ID"></field>
+<field name="COMPANY_ID"></field>
+<field name="BASE_ARTICLE_ID"></field>
+<field name="INGREDIENT_LEVEL"></field>
+</fields>
+</table>
+</child_tables>
+</table>

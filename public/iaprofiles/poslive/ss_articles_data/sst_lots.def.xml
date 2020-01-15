@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<table name="SST_LOTS" primary_key="ID" unique_fields="WAREHOUSE_ID, ARTICLE_ID, EXTERNAL_CODE" ordered_by="WAREHOUSE_ID, ARTICLE_ID, EXTERNAL_CODE" static_filter="(%FILTER_SST_LOTS%) AND (warehouse_id IN (SELECT warehouse_id FROM plv_pos_locations WHERE location_name = '%FILTER_LOCATION_NAME%'))">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="NOTES"></field>
+<field name="EXTERNAL_CODE"></field>
+<field name="WAREHOUSE_ID"></field>
+<field name="ARTICLE_ID"></field>
+<field name="SUPPLIER_ID"></field>
+<field name="MEAS_UNIT_ID"></field>
+<field name="VALIDITY_DATE"></field>
+<field name="EXPIRATION_DATE"></field>
+<field name="INITIAL_QUANTITY"></field>
+<field name="EXPIRED"></field>
+</fields>
+</table>

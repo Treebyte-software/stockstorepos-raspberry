@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<table name="SST_NUTRIENTS" primary_key="ID" unique_fields="CODE" ordered_by="CODE">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="GROUP_ID"></field>
+<field name="MEAS_UNIT_ID"></field>
+<field name="CONVERSION_FACTOR"></field>
+<field name="QUANTITY"></field>
+<field name="NUTRIENTS_PROTEIN"></field>
+<field name="NUTRIENTS_FAT"></field>
+<field name="NUTRIENTS_CARBOHYDRATE"></field>
+<field name="NUTRIENTS_ALCOOL"></field>
+<field name="NUTRIENTS_WATER"></field>
+<field name="NUTRIENTS_CHOLESTEROL"></field>
+<field name="NUTRIENTS_STARCH"></field>
+<field name="NUTRIENTS_FIBER"></field>
+<field name="NUTRIENTS_SODIUM"></field>
+<field name="NUTRIENTS_POTASSIUM"></field>
+<field name="NUTRIENTS_IRON"></field>
+<field name="NUTRIENTS_CALCIUM"></field>
+<field name="NUTRIENTS_PHOSPHORUS"></field>
+<field name="NUTRIENTS_COPPER"></field>
+<field name="NUTRIENTS_IODINE"></field>
+<field name="NUTRIENTS_CHROMIUM"></field>
+<field name="NUTRIENTS_MANGANESE"></field>
+<field name="NUTRIENTS_ZINC"></field>
+<field name="NUTRIENTS_FOLIC_ACID"></field>
+<field name="NUTRIENTS_B1"></field>
+<field name="NUTRIENTS_B2"></field>
+<field name="NUTRIENTS_B3"></field>
+<field name="NUTRIENTS_B6"></field>
+<field name="NUTRIENTS_B12"></field>
+<field name="NUTRIENTS_C"></field>
+<field name="NUTRIENTS_A"></field>
+<field name="NUTRIENTS_D"></field>
+<field name="NUTRIENTS_E"></field>
+<field name="NUTRIENTS_F"></field>
+<field name="NUTRIENTS_K"></field>
+<field name="NUTRIENTS_KCAL"></field>
+<field name="NUTRIENTS_KJOULE"></field>
+</fields>
+</table>

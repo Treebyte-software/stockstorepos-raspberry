@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<settings>
+<profile description="Esportazione valori di magazzino" last_execution="-NOTHING-" enabled="true" />
+<host_db type="%LOCALHOST_DB_TYPE%" connection="%LOCALHOST_DB_CONNECTION%" dictionary="%LOCALHOST_DICTIONARY%" structure="sst_stock_values.def.xml" />
+<data_file name="%DATA_PATH%\sst_stock_values.dat.xml" append_export="true" />
+<log_file name="%LOG_PATH%\sst_stock_values.log.xml" append="true" />
+<options bulk_import="false" generate_ids="true" exists_behaviour="pkey" on_detail_error="invalidate_current" />
+</settings>

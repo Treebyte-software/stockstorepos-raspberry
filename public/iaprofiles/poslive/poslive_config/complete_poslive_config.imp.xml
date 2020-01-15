@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings multiple="true" enabled="true" log_file="%LOG_PATH%\complete_poslive_config.log.xml">
+<profiles>
+<profile filename="plt_ia_profiles.imp.xml" description="POSLive Integration Architect profiles" />
+<profile filename="plt_host_locations.imp.xml" description="POSLive host locations" />
+<profile filename="plt_host_ia_profiles.imp.xml" description="Integration Architect profiles run by hosts" />
+<profile filename="plt_locations_messages.imp.xml" description="Messages coming from POSLive locations" />
+</profiles>
+</settings>

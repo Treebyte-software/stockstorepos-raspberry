@@ -1,0 +1,14 @@
+<?xmlversion = "1.0"?>
+<table name="SST_DATA_FEEDS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_DATA_FEEDS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="DATASOURCE_ID"></field>
+<field name="VISIBILITY_LEVEL"></field>
+<field name="VISIBILITY_BY_MODULE"></field>
+<field name="CHECK_STOCK_SETTINGS"></field>
+<field name="IS_SYSTEM"></field>
+<field name="ENABLED"></field>
+</fields>
+</table>

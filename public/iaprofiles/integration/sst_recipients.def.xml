@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<table name="SST_RECIPIENTS" primary_key="ID" unique_fields="RECIPIENT_GUID" ordered_by="ID" static_filter="ID=%ID%">
+<fields>
+<field name="ID"></field>
+<field name="RECIPIENT_GUID"></field>
+<field name="CUSTOMER_ID" source_table="SST_CUSTOMERS" lookup_key="ID" return_fields="CODE"></field> 
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="ATTENTION_OF"></field>
+<field name="STREET"></field>
+<field name="ZIP_CODE"></field>
+<field name="CITY"></field>
+<field name="COUNTY"></field>
+<field name="PHONE_A"></field>
+<field name="EMAIL"></field>
+<field name="COUNTRY_ID"></field>
+<field name="BUSINESS_UNIT_ID"></field>
+</fields>
+</table>

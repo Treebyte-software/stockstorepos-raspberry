@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="09/10/2017 09:27:42">
+<recordcount>1</recordcount>
+<record ID="114" CODE="020" PWD="8f03ad02c6cad600d2c00a972a9bcce6" PERMISSION_GROUP_ID="5" DESCRIPTION="Ester" CARD_NUM="020" NOTES="" STREET="" ZIP_CODE="" CITY="" COUNTRY="" NATION="" PHONE_A="" PHONE_B="" FAX="" INTERNET="" EMAIL="" BIRTH_DATE="" ENGAGEMENT_DATE="" RESIGNATION_DATE="" FISCAL_CODE="" LANGUAGE_CODE="16" IS_SYSTEM="0" IMAGE="" RECENTS_TASKS_NUMBER="10" FAVORITES_TASKS_NUMBER="10" APPLICATION_STYLE="1" VISIBLE_IN_LIST="1" AUTO_SAVE_ENABLED="0">
+<child_records>
+<table name="SST_WAREHOUSE_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_COMPANY_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="111" OPERATOR_ID="114" COMPANY_ID="24"/>
+</table>
+</child_records>
+</record>
+</table>

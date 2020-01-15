@@ -1,0 +1,130 @@
+﻿<?xml version="1.0"?>
+<table name="SST_WAREHOUSE_ARTICLES" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_WAREHOUSE_ARTICLES%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="FASTCODE"></field>
+<field name="NOTES"></field>
+<field name="GROUP_A_ID"></field>
+<field name="GROUP_B_ID"></field>
+<field name="GROUP_C_ID"></field>
+<field name="GROUP_D_ID"></field>
+<field name="GROUP_E_ID"></field>
+<field name="BUSINESS_UNIT_ID"></field>
+<field name="MEAS_UNIT_ID"></field>
+<field name="VAT_ID"></field>
+<field name="PERISHABLE"></field>
+<field name="DAYS_OF_VALIDITY"></field>
+<field name="START_AVAIL_DATE"></field>
+<field name="END_AVAIL_DATE"></field>
+<field name="REFERENCE_COST"></field>
+<field name="REFERENCE_PRICE"></field>
+<field name="IS_VALID"></field>
+<field name="MIN_STOCK"></field>
+<field name="MAX_STOCK"></field>
+<field name="MIN_ORDER"></field>
+<field name="MAX_ORDER"></field>
+<field name="STATE_ID"></field>
+<field name="REFERENCE_ID"></field>
+<field name="VARIANT_VALUE_A_ID"></field>
+<field name="VARIANT_VALUE_B_ID"></field>
+<field name="VARIANT_VALUE_C_ID"></field>
+<field name="VARIANT_VALUE_D_ID"></field>
+<field name="VARIANT_VALUE_E_ID"></field>
+<field name="VARIANT_VALUE_F_ID"></field>
+<field name="VARIANT_VALUE_G_ID"></field>
+<field name="VARIANT_VALUE_H_ID"></field>
+<field name="VARIANT_VALUE_J_ID"></field>
+<field name="VARIANT_VALUE_K_ID"></field>
+<field name="NUTRIENT_ID"></field>
+<field name="ITEM_WEIGHT"></field>
+<field name="TARE"></field>
+<field name="PRINT_NOTES"></field>
+<field name="DONT_PRINT"></field>
+<field name="DONT_DISCOUNT"></field>
+<field name="VAT_B_ID"></field>
+<field name="VAT_C_ID"></field>
+<field name="VAT_D_ID"></field>
+<field name="VAT_E_ID"></field>
+<field name="ARTICLE_TYPE"></field>
+<field name="LAST_UPDATE_DATE"></field>
+<field name="USE_SERIAL_NUMBER"></field>
+<field name="USE_LOT"></field>
+<field name="USER_FLAG_A"></field>
+<field name="USER_FLAG_B"></field>
+<field name="USER_FLAG_C"></field>
+<field name="USER_FLAG_D"></field>
+<field name="USER_FLAG_E"></field>
+<field name="IS_SHIPPING_SERVICE"></field>
+<field name="CARRIER_ID"></field>
+<field name="WAYBILL_SERVICE_NUM"></field>
+<field name="WAYBILL_COUNTER_START"></field>
+<field name="WAYBILL_COUNTER_END"></field>
+<field name="CAN_CHANGE_PRICE"></field>
+<field name="MAX_PACKAGES_COUNT"></field>
+<field name="SHIP_CASH_ON_DELIVERY"></field>
+<field name="SHIP_INSURED_SHIPPING"></field>
+<field name="SHIP_TIME_DEFINITE"></field>
+<field name="SHIP_FLOOR_DELIVERY"></field>
+<field name="SHIP_APPTM_DELIVERY"></field>
+<field name="SHIP_PROGR_DELIVERY"></field>
+<field name="SHIP_EXACTDAY_DELIVERY"></field>
+<field name="SHIP_EXPRBOX_DELIVERY"></field>
+<field name="DESCRIPTION_TEXT"></field>
+<field name="DESCRIPTION_URL"></field>
+</fields>
+<child_tables>
+<table name="SST_ARTICLE_MEAS_UNITS" primary_key="ID" unique_fields="ARTICLE_ID, MEAS_UNIT_ID, CONVERSION_FACTOR" ordered_by="ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="ARTICLE_ID" parent_field="ID"></field>
+<field name="MEAS_UNIT_ID"></field>
+<field name="CONVERSION_FACTOR"></field>
+</fields>
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" primary_key="ID" unique_fields="ARTICLE_ID, COUNTRY_ID" ordered_by="ID">
+<fields>
+<field name="ID"></field>
+<field name="ARTICLE_ID" parent_field="ID"></field>
+<field name="COUNTRY_ID"></field>
+<field name="DESCRIPTION"></field>
+<field name="VAT_ID"></field>
+</fields>
+</table>
+<table name="SST_ARTICLE_WORKINGS" primary_key="ID" unique_fields="ARTICLE_ID, WORKING_ID" ordered_by="ID">
+<fields>
+<field name="ID"></field>
+<field name="ARTICLE_ID" parent_field="ID"></field>
+<field name="WORKING_ID"></field>
+<field name="DISCARD_PERCENTUAL"></field>
+</fields>
+</table>
+<table name="SST_BARCODES" primary_key="ID" unique_fields="ARTICLE_ID, BARCODE" ordered_by="ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="ARTICLE_ID" parent_field="ID"></field>
+<field name="BARCODE"></field>
+<field name="BARCODE_TYPE"></field>
+</fields>
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" primary_key="ID" unique_fields="ARTICLE_ID, GROUP_IDENTIFIER, GROUP_LEVEL" ordered_by="ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="ARTICLE_ID" parent_field="ID"></field>
+<field name="GROUP_IDENTIFIER"></field>
+<field name="GROUP_ID"></field>
+<field name="GROUP_LEVEL"></field>
+</fields>
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" primary_key="ID" unique_fields="ARTICLE_ID, SHOP_ID, PRODUCTION_CENTER_ID" ordered_by="ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="ARTICLE_ID" parent_field="ID"></field>
+<field name="SHOP_ID"></field>
+<field name="PRODUCTION_CENTER_ID"></field>
+<field name="IS_DEFAULT"></field>
+</fields>
+</table>
+</child_tables>
+</table>

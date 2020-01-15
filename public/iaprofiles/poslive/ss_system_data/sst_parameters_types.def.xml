@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<table name="SST_PARAMETERS_TYPES" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_PARAMETERS_TYPES%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="PARAM_TYPE"></field>
+<field name="SQL_EXPRESSION"></field>
+<field name="IS_SYSTEM"></field>
+<field name="SQL_FIELD_CAPTIONS"></field>
+</fields>
+</table>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<table name="SST_GROUPS" primary_key="ID" unique_fields="INTERNAL_CODE" ordered_by="CATEGORY_GROUP_ID,GROUP_LEVEL,ID" static_filter="%FILTER_SST_GROUPS% AND group_level > 0">
+<fields>
+<field name="CODE"></field>
+<field name="INTERNAL_CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="NOTES"></field>
+<field name="PARENT_GROUP_ID"></field>
+<field name="CATEGORY_GROUP_ID"></field>
+<field name="GROUP_LEVEL"></field>
+<field name="DONT_HAVE_VARIANTS"></field>
+<field name="ID"></field>
+</fields>
+<child_tables>
+<table name="SST_VARIANT_SETS" primary_key="ID" unique_fields="GROUP_ID" ordered_by="GROUP_ID">
+<fields>
+<field name="ID"></field>
+<field name="GROUP_ID" parent_field="ID"></field>
+<field name="VARIANT_TYPE_ID"></field>
+<field name="ORDER_NUM"></field>
+<field name="INPUT_IN_DOCUMENTS"></field>
+</fields>
+</table>
+</child_tables>
+</table>

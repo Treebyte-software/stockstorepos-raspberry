@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<table name="PLT_IA_PROFILES" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_PLT_IA_PROFILES%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="EXECUTION_TYPE"></field>
+<field name="PROFILE_FILE"></field>
+</fields>
+</table>

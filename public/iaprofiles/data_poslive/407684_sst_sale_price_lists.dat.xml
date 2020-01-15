@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_SALE_PRICE_LISTS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="18/12/2017 10:02:34">
+<recordcount>1</recordcount>
+<record ID="7" CODE="1" DESCRIPTION="Standard" NOTES="" CURRENCY_ID="1" COUNTRY_ID="7" VALIDITY_DATE="" EXPIRATION_DATE="" DONT_APPLY_VAT="0" IS_VALID="0" BUSINESS_UNIT_ID="">
+<child_records>
+<table name="SST_POINT_OF_SALES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+</table>

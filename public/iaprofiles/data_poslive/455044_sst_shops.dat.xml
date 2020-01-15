@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_SHOPS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="10/01/2020 12:24:10">
+<recordcount>1</recordcount>
+<record ID="60" CODE="200" DESCRIPTION="Sosta Emiliana Bologna" NOTES="" CLOSING_TYPE="2" END_OF_DAY="18991230020000" COMPANY_ID="62" OPENED="0" FISCAL_CODE_A="03847290362" FISCAL_CODE_B="03847290362" REA_CODE="" REA_PROGR="" CLOSING_TEMPLATE_ID="3" STREET="Via De' Falegnami 7/B" ZIP_CODE="40121" CITY="Bologna" COUNTRY="BO" NATION="Italia" PHONE_A="0510226315" PHONE_B="" FAX="" INTERNET="www.sostaemiliana.it" EMAIL="bologna@sostaemiliana.it" MANAGE_DRAWER_ON_OPENING="0" MANAGE_DRAWER_ON_CLOSING="0" SHOP_IDENTIFIER="" TRANSFER_COUPON_REMAINING="0" ALLOW_TICKET_SQUARING="1">
+<child_records>
+<table name="SST_SHOPS_OPENINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+</table>

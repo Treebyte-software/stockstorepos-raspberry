@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<table name="SST_SALE_CAUSALS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_SALE_CAUSALS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="VISIBILITY_LEVEL"></field>
+<field name="IS_SYSTEM"></field>
+<field name="ENABLED"></field>
+<field name="CUSTOMER_MANDATORY"></field>
+<field name="REF_CUSTOMER_MANDATORY"></field>
+</fields>
+<child_tables>
+<table name="SST_LINK_SALE_CAUSALS" primary_key="ID" unique_fields="CAUSAL_ID, SALE_CAUSAL_ID" ordered_by="ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="CAUSAL_ID"></field>
+<field name="SALE_CAUSAL_ID" parent_field="ID"></field>
+</fields>
+</table>
+<table name="SST_SALE_CAUSAL_CONTROLS" primary_key="ID" unique_fields="SALE_CAUSAL_ID,SALE_CONTROL_ID" ordered_by="ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="SALE_CAUSAL_ID" parent_field="ID"></field>
+<field name="SALE_CONTROL_ID"></field>
+<field name="ENABLED"></field>
+<field name="POSITIVE_ACTIVITY_ID"></field>
+<field name="NEGATIVE_ACTIVITY_ID"></field>
+</fields>
+</table>
+</child_tables>
+</table>

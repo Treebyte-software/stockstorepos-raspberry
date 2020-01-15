@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<settings multiple="true" enabled="true" log_file="%LOG_PATH%\complete_ss_general_config.log.xml">
+<profiles>
+<profile filename="sst_custom_user_table_a.exp.xml" description="Custom data A" />
+<profile filename="sst_custom_user_table_b.exp.xml" description="Custom data B" />
+<profile filename="sst_custom_user_table_c.exp.xml" description="Custom data C" />
+<profile filename="sst_custom_user_table_d.exp.xml" description="Custom data D" />
+<profile filename="sst_custom_user_table_e.exp.xml" description="Custom data E" />
+<profile filename="sst_image_groups.exp.xml" description="Images groups" />
+<profile filename="sst_images.exp.xml" description="Images" />
+<profile filename="sst_currencies.exp.xml" description="Currencies" />
+<profile filename="sst_countries.exp.xml" description="Countries" />
+<profile filename="sst_time_bands.exp.xml" description="Time bands" />
+<profile filename="sst_age_groups.exp.xml" description="Age groups" />
+<profile filename="sst_business_units.exp.xml" description="Business units" />
+<profile filename="sst_vats.exp.xml" description="Vats" />
+<profile filename="sst_credit_cards.exp.xml" description="Credit cards" />
+<profile filename="sst_payment_conditions.exp.xml" description="Payment conditions" />
+<profile filename="sst_sale_payments.exp.xml" description="Sale payments" />
+<profile filename="sst_meas_units.exp.xml" description="Meas units" />
+<profile filename="sst_meas_unit_conversions.exp.xml" description="Meas units conversion factor" />
+<profile filename="sst_stock_fields.exp.xml" description="Stock fields" />
+<profile filename="sst_document_states.exp.xml" description="Document states" />
+<profile filename="sst_document_types.exp.xml" description="Document types" />
+<profile filename="sst_causals.exp.xml" description="Causals" />
+<profile filename="sst_courses.exp.xml" description="Courses" />
+<profile filename="sst_lunch_tables_states.exp.xml" description="Lunch tables states" />
+</profiles>
+</settings>

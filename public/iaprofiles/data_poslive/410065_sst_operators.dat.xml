@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="08/03/2018 11:17:54">
+<recordcount>3</recordcount>
+<record ID="102" CODE="010" PWD="ea20a043c08f5168d4409ff4144f32e2" PERMISSION_GROUP_ID="5" DESCRIPTION="Giulia" CARD_NUM="010" NOTES="" STREET="" ZIP_CODE="" CITY="" COUNTRY="" NATION="" PHONE_A="" PHONE_B="" FAX="" INTERNET="" EMAIL="" BIRTH_DATE="" ENGAGEMENT_DATE="" RESIGNATION_DATE="20180306000000" FISCAL_CODE="" LANGUAGE_CODE="16" IS_SYSTEM="0" IMAGE="" RECENTS_TASKS_NUMBER="10" FAVORITES_TASKS_NUMBER="10" APPLICATION_STYLE="1" VISIBLE_IN_LIST="0" AUTO_SAVE_ENABLED="0">
+<child_records>
+<table name="SST_WAREHOUSE_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_COMPANY_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="101" OPERATOR_ID="102" COMPANY_ID="24"/>
+</table>
+</child_records>
+</record>
+<record ID="105" CODE="013" PWD="441954d29ad2a375cef8ea524a2c7e73" PERMISSION_GROUP_ID="5" DESCRIPTION="Sofia" CARD_NUM="013" NOTES="" STREET="" ZIP_CODE="" CITY="" COUNTRY="" NATION="" PHONE_A="" PHONE_B="" FAX="" INTERNET="" EMAIL="" BIRTH_DATE="" ENGAGEMENT_DATE="" RESIGNATION_DATE="20180306000000" FISCAL_CODE="" LANGUAGE_CODE="16" IS_SYSTEM="0" IMAGE="" RECENTS_TASKS_NUMBER="10" FAVORITES_TASKS_NUMBER="10" APPLICATION_STYLE="1" VISIBLE_IN_LIST="0" AUTO_SAVE_ENABLED="0">
+<child_records>
+<table name="SST_WAREHOUSE_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_COMPANY_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="104" OPERATOR_ID="105" COMPANY_ID="24"/>
+</table>
+</child_records>
+</record>
+<record ID="107" CODE="015" PWD="af032fbcb07ffc7bd2569d86ae4ce1f5" PERMISSION_GROUP_ID="5" DESCRIPTION="Magna" CARD_NUM="015" NOTES="" STREET="" ZIP_CODE="" CITY="" COUNTRY="" NATION="" PHONE_A="" PHONE_B="" FAX="" INTERNET="" EMAIL="" BIRTH_DATE="" ENGAGEMENT_DATE="" RESIGNATION_DATE="20180306000000" FISCAL_CODE="" LANGUAGE_CODE="16" IS_SYSTEM="0" IMAGE="" RECENTS_TASKS_NUMBER="10" FAVORITES_TASKS_NUMBER="10" APPLICATION_STYLE="1" VISIBLE_IN_LIST="0" AUTO_SAVE_ENABLED="0">
+<child_records>
+<table name="SST_WAREHOUSE_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_COMPANY_OPERATORS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="106" OPERATOR_ID="107" COMPANY_ID="24"/>
+</table>
+</child_records>
+</record>
+</table>

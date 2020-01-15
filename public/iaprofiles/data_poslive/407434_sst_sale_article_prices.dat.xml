@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_SALE_ARTICLE_PRICES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="15/12/2017 09:46:57">
+<recordcount>3</recordcount>
+<record ID="1082" SALE_PRICE_LIST_ID="73" SALE_ARTICLE_ID="2024" MEAS_UNIT_ID="1" CONVERSION_FACTOR="        1.00000" PRICE="        0.00000" NET_PRICE="        0.00000" VALIDITY_DATE="" EXPIRATION_DATE="" IS_VALID="1" NOTES=""/>
+<record ID="1083" SALE_PRICE_LIST_ID="73" SALE_ARTICLE_ID="2025" MEAS_UNIT_ID="1" CONVERSION_FACTOR="        1.00000" PRICE="        0.00000" NET_PRICE="        0.00000" VALIDITY_DATE="" EXPIRATION_DATE="" IS_VALID="1" NOTES=""/>
+<record ID="1084" SALE_PRICE_LIST_ID="73" SALE_ARTICLE_ID="2026" MEAS_UNIT_ID="1" CONVERSION_FACTOR="        1.00000" PRICE="        0.00000" NET_PRICE="        0.00000" VALIDITY_DATE="" EXPIRATION_DATE="" IS_VALID="1" NOTES=""/>
+</table>

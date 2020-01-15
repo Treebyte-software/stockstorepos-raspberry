@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<table name="SST_SALE_HEADINGS" primary_key="ID" unique_fields="POS_ID,TRANSACTION_NUM,TRANSACTION_DATE" force_input_from_file="true" static_filter="ID=%ID%">
+<fields>
+<field name="ID"></field>
+<field name="TRANSACTION_NUM"></field>
+<field name="TRANSACTION_DATE"></field>
+<field name="ACCOUNTING_DATE"></field>
+<field name="TOTAL_AMOUNT"></field>
+<field name="CURRENCY_ID" source_table="SST_CURRENCIES" lookup_key="ID" return_fields="ACRONYM"></field>
+<field name="NOTES"></field>
+<field name="SALE_TYPE_ID" source_table="SST_SALE_TYPES" lookup_key="ID" return_fields="CODE"></field>
+<field name="SUSPENDED"></field>
+<field name="SALE_PRICE_LIST_ID" user_field_mandatory="true" user_type="INTEGER" user_query="SELECT sale_price_list_id FROM sst_point_of_sales WHERE id = (SELECT pos_id FROM sst_pos_system_settings)"></field>
+<field name="BILL_STATUS"></field>
+<field name="LINK_EXTERNAL_DOC_1"></field>
+<field name="LINK_EXTERNAL_DOC_2"></field>
+<field name="LINK_EXTERNAL_DOC_3"></field>
+</fields>
+<child_tables>
+<table name="SST_SALE_DETAILS" primary_key="ID" unique_fields="HEADING_ID,DETAIL_ORDER" ordered_by="DETAIL_ORDER">
+<fields>
+<field name="ID"></field>
+<field name="HEADING_ID" parent_field="ID"></field>
+<field name="SALE_ARTICLE_ID" source_table="SST_WAREHOUSE_ARTICLES" lookup_key="ID" return_fields="CODE"></field>
+<field name="VAT_ID" source_table="SST_VATS" lookup_key="ID" return_fields="CODE"></field>
+<field name="MEAS_UNIT_ID" source_table="SST_MEAS_UNITS" lookup_key="ID" return_fields="CODE"></field>
+<field name="CONVERSION_FACTOR"></field>
+<field name="SERIAL_NUMBER"></field>
+<field name="LOT_EXTERNAL_CODE"></field>
+<field name="EXPIRATION_DATE"></field>
+<field name="QUANTITY"></field>
+<field name="PRICE"></field>
+<field name="DISCOUNT"></field>
+<field name="ROW_TOTAL_PRICE"></field>
+<field name="DELETED"></field>
+<field name="DETAIL_ORDER"></field>
+<field name="SALE_CAUSAL_ID" source_table="SST_SALE_CAUSALS" lookup_key="ID" return_fields="CODE"></field>
+<field name="PROMOTION_DISCOUNT"></field>
+<field name="REFERENCE_PRICE"></field>
+<field name="DONT_PRINT"></field>
+<field name="VAT_PERCENT"></field>
+<field name="EXTERNAL_ID"></field>
+<field name="SALE_PRICE_LIST_ID" user_field_mandatory="true" user_type="INTEGER" user_query="SELECT sale_price_list_id FROM sst_point_of_sales WHERE id = (SELECT pos_id FROM sst_pos_system_settings)"></field>
+<field name="LINK_EXTERNAL_DOC_1"></field>
+<field name="LINK_EXTERNAL_DOC_2"></field>
+<field name="LINK_EXTERNAL_DOC_3"></field>
+</fields>
+</table>
+<table name="SST_SALE_DETAILS_DISCOUNTS" primary_key="ID" unique_fields="HEADING_ID,DETAIL_ORDER" ordered_by="DETAIL_ORDER">
+<fields>
+<field name="ID"></field>
+<field name="HEADING_ID" parent_field="ID"></field>
+<field name="SALE_DISCOUNT_ID" source_table="SST_SALE_DISCOUNTS" lookup_key="ID" return_fields="CODE"></field>
+<field name="QUANTITY"></field>
+<field name="AMOUNT"></field>
+<field name="DETAIL_ORDER"></field>
+<field name="EXTERNAL_ID"></field>
+<field name="LINK_EXTERNAL_DOC_1"></field>
+<field name="LINK_EXTERNAL_DOC_2"></field>
+<field name="LINK_EXTERNAL_DOC_3"></field>
+</fields>
+</table>
+</child_tables>
+</table>

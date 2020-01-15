@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<table name="SST_REFERENCES" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_REFERENCES%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="NOTES"></field>
+<field name="GROUP_A_ID"></field>
+<field name="GROUP_B_ID"></field>
+<field name="GROUP_C_ID"></field>
+<field name="GROUP_D_ID"></field>
+<field name="GROUP_E_ID"></field>
+<field name="BUSINESS_UNIT_ID"></field>
+<field name="IS_VALID"></field>
+<field name="REFERENCE_COST"></field>
+<field name="REFERENCE_PRICE"></field>
+</fields>
+</table>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<table name="SST_SALE_LAYERS" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_SALE_LAYERS%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="NOTES"></field>
+<field name="IMAGE_ID"></field>
+<field name="VISIBILITY_LEVEL"></field>
+<field name="IS_SYSTEM"></field>
+<field name="ENABLED"></field>
+<field name="LAYER_AREA"></field>
+<field name="BACKGROUND_COLOR"></field>
+<field name="CLOSE_ON_SELECTION"></field>
+<field name="CREATED_ON_DESIGN"></field>
+<field name="MEDIA_CONTENT_ID"></field>
+<field name="OUTPUT_DISPLAY"></field>
+</fields>
+<child_tables>
+<table name="SST_SALE_LAYER_ACTIVITIES" primary_key="ID" unique_fields="" ordered_by="" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="LAYER_ID" parent_field="ID"></field>
+<field name="ACTIVITY_ID"></field>
+<field name="RECORD_CODE"></field>
+<field name="ADDITIONAL_RECORD_CODE"></field>
+<field name="CAPTION"></field>
+<field name="VISIBILITY_LEVEL"></field>
+<field name="RECT_AREA"></field>
+<field name="FONT_NAME"></field>
+<field name="FONT_SIZE"></field>
+<field name="FONT_COLOR"></field>
+<field name="FONT_ATTRIBUTES"></field>
+<field name="IMAGE_ID"></field>
+<field name="IMAGE_POSITION"></field>
+<field name="COLORS"></field>
+<field name="STYLE"></field>
+<field name="PARAMETERS"></field>
+<field name="KEY_PROTECTED"></field>
+<field name="PWD"></field>
+</fields>
+</table>
+</child_tables>
+</table>

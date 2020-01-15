@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_WAREHOUSE_ARTICLES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="04/04/2018 15:21:06">
+<recordcount>44</recordcount>
+<record ID="1852" CODE="BIR004" DESCRIPTION="Birra Nazionale" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="624" ARTICLE_ID="1852" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1853" CODE="BIR005" DESCRIPTION="Birra Isaac" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="625" ARTICLE_ID="1853" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1854" CODE="BIR006" DESCRIPTION="Birra Super" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="626" ARTICLE_ID="1854" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1855" CODE="BIR007" DESCRIPTION="Birra Nora" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="627" ARTICLE_ID="1855" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1856" CODE="BIR008" DESCRIPTION="Birra Wyan" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="628" ARTICLE_ID="1856" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1857" CODE="BIR009" DESCRIPTION="Birra Open" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="629" ARTICLE_ID="1857" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1859" CODE="CAL002" DESCRIPTION="Cal. Cabernet Sauvignon" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="636" ARTICLE_ID="1859" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1861" CODE="CAL004" DESCRIPTION="Calice Prosecco" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="638" ARTICLE_ID="1861" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1862" CODE="CAL005" DESCRIPTION="Cal. Malvasia Dolce" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="639" ARTICLE_ID="1862" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1949" CODE="CAL006" DESCRIPTION="Cal. Sangiovese" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="707" ARTICLE_ID="1949" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1950" CODE="CAL007" DESCRIPTION="Cal. Gutturnio" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="708" ARTICLE_ID="1950" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1952" CODE="CAL008" DESCRIPTION="Cal. Malvasia Secco" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="709" ARTICLE_ID="1952" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1953" CODE="CAL009" DESCRIPTION="Cal. Pignoletto Fermo" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="710" ARTICLE_ID="1953" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1795" CODE="DEG005" DESCRIPTION="Deg. Tig. Dolci" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.90000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="644" ARTICLE_ID="1795" SHOP_ID="" PRODUCTION_CENTER_ID="2" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="5021" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2002" MANDATORY="0"/>
+<record ID="5022" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2002" MANDATORY="0"/>
+<record ID="5023" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2002" MANDATORY="0"/>
+<record ID="5024" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2003" MANDATORY="0"/>
+<record ID="5025" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2003" MANDATORY="0"/>
+<record ID="5026" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2003" MANDATORY="0"/>
+<record ID="5027" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2004" MANDATORY="0"/>
+<record ID="5028" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2004" MANDATORY="0"/>
+<record ID="5029" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2004" MANDATORY="0"/>
+<record ID="5030" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2005" MANDATORY="0"/>
+<record ID="5031" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2005" MANDATORY="0"/>
+<record ID="5032" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2005" MANDATORY="0"/>
+<record ID="5033" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2006" MANDATORY="0"/>
+<record ID="5034" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2006" MANDATORY="0"/>
+<record ID="5035" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2006" MANDATORY="0"/>
+<record ID="5036" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2007" MANDATORY="0"/>
+<record ID="5037" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2007" MANDATORY="0"/>
+<record ID="5038" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2007" MANDATORY="0"/>
+<record ID="5039" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2008" MANDATORY="0"/>
+<record ID="5040" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2008" MANDATORY="0"/>
+<record ID="5041" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2008" MANDATORY="0"/>
+<record ID="5042" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2009" MANDATORY="0"/>
+<record ID="5043" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2009" MANDATORY="0"/>
+<record ID="5044" ARTICLE_ID="1795" LINKED_ARTICLE_ID="2009" MANDATORY="0"/>
+</table>
+</child_records>
+</record>
+<record ID="1835" CODE="DOL002" DESCRIPTION="Dolce Mattone" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        3.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="646" ARTICLE_ID="1835" SHOP_ID="" PRODUCTION_CENTER_ID="4" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="5076" ARTICLE_ID="1835" LINKED_ARTICLE_ID="2034" MANDATORY="0"/>
+</table>
+</child_records>
+</record>
+<record ID="1836" CODE="DOL003" DESCRIPTION="Salame Dolce" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        3.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="647" ARTICLE_ID="1836" SHOP_ID="" PRODUCTION_CENTER_ID="4" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1838" CODE="DOL005" DESCRIPTION="Torta Tenerina" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        3.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="649" ARTICLE_ID="1838" SHOP_ID="" PRODUCTION_CENTER_ID="4" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="5078" ARTICLE_ID="1838" LINKED_ARTICLE_ID="2034" MANDATORY="0"/>
+</table>
+</child_records>
+</record>
+<record ID="1830" CODE="FAR001" DESCRIPTION="Ins. Farro Del Contadino" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        5.90000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="650" ARTICLE_ID="1830" SHOP_ID="" PRODUCTION_CENTER_ID="3" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="4845" ARTICLE_ID="1830" LINKED_ARTICLE_ID="1924" MANDATORY="0"/>
+<record ID="4846" ARTICLE_ID="1830" LINKED_ARTICLE_ID="1922" MANDATORY="0"/>
+<record ID="4847" ARTICLE_ID="1830" LINKED_ARTICLE_ID="1918" MANDATORY="0"/>
+<record ID="4848" ARTICLE_ID="1830" LINKED_ARTICLE_ID="1912" MANDATORY="0"/>
+</table>
+</child_records>
+</record>
+<record ID="1832" CODE="FAR003" DESCRIPTION="Ins. Farro La Bolognese" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        6.90000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="652" ARTICLE_ID="1832" SHOP_ID="" PRODUCTION_CENTER_ID="3" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="4854" ARTICLE_ID="1832" LINKED_ARTICLE_ID="1900" MANDATORY="0"/>
+<record ID="4855" ARTICLE_ID="1832" LINKED_ARTICLE_ID="1915" MANDATORY="0"/>
+<record ID="4856" ARTICLE_ID="1832" LINKED_ARTICLE_ID="1918" MANDATORY="0"/>
+<record ID="4857" ARTICLE_ID="1832" LINKED_ARTICLE_ID="1912" MANDATORY="0"/>
+<record ID="4858" ARTICLE_ID="1832" LINKED_ARTICLE_ID="1886" MANDATORY="0"/>
+<record ID="4974" ARTICLE_ID="1832" LINKED_ARTICLE_ID="1922" MANDATORY="0"/>
+</table>
+</child_records>
+</record>
+<record ID="1974" CODE="FAR005" DESCRIPTION="Ins. Farro Autunno" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        6.90000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="726" ARTICLE_ID="1974" SHOP_ID="" PRODUCTION_CENTER_ID="3" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="4972" ARTICLE_ID="1974" LINKED_ARTICLE_ID="1914" MANDATORY="0"/>
+<record ID="5006" ARTICLE_ID="1974" LINKED_ARTICLE_ID="1990" MANDATORY="0"/>
+</table>
+</child_records>
+</record>
+<record ID="1788" CODE="TAG004" DESCRIPTION="Tag. Culatello" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="       12.90000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="664" ARTICLE_ID="1788" SHOP_ID="" PRODUCTION_CENTER_ID="1" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="4787" ARTICLE_ID="1788" LINKED_ARTICLE_ID="1945" MANDATORY="0"/>
+<record ID="4788" ARTICLE_ID="1788" LINKED_ARTICLE_ID="1886" MANDATORY="0"/>
+<record ID="5017" ARTICLE_ID="1788" LINKED_ARTICLE_ID="1998" MANDATORY="0"/>
+</table>
+</child_records>
+</record>
+<record ID="1790" CODE="TAG006" DESCRIPTION="Tag. Salse" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        4.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="666" ARTICLE_ID="1790" SHOP_ID="" PRODUCTION_CENTER_ID="1" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="4791" ARTICLE_ID="1790" LINKED_ARTICLE_ID="1945" MANDATORY="0"/>
+<record ID="4792" ARTICLE_ID="1790" LINKED_ARTICLE_ID="1886" MANDATORY="0"/>
+</table>
+</child_records>
+</record>
+<record ID="1802" CODE="TIG007" DESCRIPTION="Tig. Coppa Parma, Noci, Miele" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        1.90000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="673" ARTICLE_ID="1802" SHOP_ID="" PRODUCTION_CENTER_ID="2" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="4916" ARTICLE_ID="1802" LINKED_ARTICLE_ID="1901" MANDATORY="0"/>
+<record ID="4917" ARTICLE_ID="1802" LINKED_ARTICLE_ID="1899" MANDATORY="0"/>
+</table>
+</child_records>
+</record>
+<record ID="1803" CODE="TIG008" DESCRIPTION="Tig. Bresaola Emiliana" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        1.90000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="674" ARTICLE_ID="1803" SHOP_ID="" PRODUCTION_CENTER_ID="2" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="4918" ARTICLE_ID="1803" LINKED_ARTICLE_ID="1913" MANDATORY="0"/>
+<record ID="4919" ARTICLE_ID="1803" LINKED_ARTICLE_ID="1918" MANDATORY="0"/>
+</table>
+</child_records>
+</record>
+<record ID="1810" CODE="TIG015" DESCRIPTION="Tig. Pancetta e Ortiche" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        1.90000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="681" ARTICLE_ID="1810" SHOP_ID="" PRODUCTION_CENTER_ID="2" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1812" CODE="TIG017" DESCRIPTION="Tig. Radicchio e Gorgonzola" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        1.90000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="683" ARTICLE_ID="1812" SHOP_ID="" PRODUCTION_CENTER_ID="2" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="4924" ARTICLE_ID="1812" LINKED_ARTICLE_ID="1915" MANDATORY="0"/>
+<record ID="4925" ARTICLE_ID="1812" LINKED_ARTICLE_ID="1896" MANDATORY="0"/>
+</table>
+</child_records>
+</record>
+<record ID="1814" CODE="TIG019" DESCRIPTION="Tig. Pecorino, Miele e Noci" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        1.90000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="685" ARTICLE_ID="1814" SHOP_ID="" PRODUCTION_CENTER_ID="2" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="4928" ARTICLE_ID="1814" LINKED_ARTICLE_ID="1910" MANDATORY="0"/>
+<record ID="4929" ARTICLE_ID="1814" LINKED_ARTICLE_ID="1899" MANDATORY="0"/>
+<record ID="4930" ARTICLE_ID="1814" LINKED_ARTICLE_ID="1901" MANDATORY="0"/>
+</table>
+</child_records>
+</record>
+<record ID="1977" CODE="TIG033" DESCRIPTION="Tig. Coppa+ Giardiniera" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        1.90000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="729" ARTICLE_ID="1977" SHOP_ID="" PRODUCTION_CENTER_ID="2" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="4979" ARTICLE_ID="1977" LINKED_ARTICLE_ID="1988" MANDATORY="0"/>
+</table>
+</child_records>
+</record>
+<record ID="1978" CODE="TIG034" DESCRIPTION="Tig. Culatello" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        1.90000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="730" ARTICLE_ID="1978" SHOP_ID="" PRODUCTION_CENTER_ID="2" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="4981" ARTICLE_ID="1978" LINKED_ARTICLE_ID="1923" MANDATORY="0"/>
+<record ID="4982" ARTICLE_ID="1978" LINKED_ARTICLE_ID="1909" MANDATORY="0"/>
+<record ID="4994" ARTICLE_ID="1978" LINKED_ARTICLE_ID="1914" MANDATORY="0"/>
+<record ID="4995" ARTICLE_ID="1978" LINKED_ARTICLE_ID="1918" MANDATORY="0"/>
+</table>
+</child_records>
+</record>
+<record ID="1963" CODE="TRA007" DESCRIPTION="Pan. Bologna" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        3.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="718" ARTICLE_ID="1963" SHOP_ID="" PRODUCTION_CENTER_ID="2" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1964" CODE="TRA008" DESCRIPTION="Pan. Modena" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        3.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="719" ARTICLE_ID="1964" SHOP_ID="" PRODUCTION_CENTER_ID="2" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1965" CODE="TRA009" DESCRIPTION="Pan. Parma" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        3.50000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="720" ARTICLE_ID="1965" SHOP_ID="" PRODUCTION_CENTER_ID="2" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1926" CODE="VAR041" DESCRIPTION="Tig. Bresaola Emiliana" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        1.90000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1929" CODE="VAR044" DESCRIPTION="Tig. Coppa Parma, Noci, Miele" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        0.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1937" CODE="VAR052" DESCRIPTION="Tig. Pancetta&amp;Ortiche" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        0.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1939" CODE="VAR054" DESCRIPTION="Tig. Pecorino, Miele e Noci" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        0.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1942" CODE="VAR057" DESCRIPTION="Tig. Radicchio e Gorgonzola" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        0.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1864" CODE="VIN002" DESCRIPTION="Bott. Cabernet Sauvignon" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="       15.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="703" ARTICLE_ID="1864" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1866" CODE="VIN004" DESCRIPTION="Bott. Prosecco" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="       15.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="705" ARTICLE_ID="1866" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1867" CODE="VIN005" DESCRIPTION="Bott. Malvasia Dolce" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="       15.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="706" ARTICLE_ID="1867" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1954" CODE="VIN006" DESCRIPTION="Bott. Sangiovese" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="       15.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="711" ARTICLE_ID="1954" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1955" CODE="VIN007" DESCRIPTION="Bott. Gutturnio" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="       15.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="712" ARTICLE_ID="1955" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1956" CODE="VIN008" DESCRIPTION="Bott. Malvasia Secco" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="       15.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="713" ARTICLE_ID="1956" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+<record ID="1957" CODE="VIN009" DESCRIPTION="Bott. Pignoletto Fermo" FASTCODE="" NOTES="" GROUP_A_ID="" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="       15.00000" IS_VALID="0" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180404152002" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="714" ARTICLE_ID="1957" SHOP_ID="" PRODUCTION_CENTER_ID="5" IS_DEFAULT="1"/>
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+</table>

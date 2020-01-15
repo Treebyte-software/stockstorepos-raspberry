@@ -1,0 +1,13 @@
+<html>
+<title>Esempi stampa termica</title>
+<body>
+<ul>
+<li>
+<a href="http://localhost/stockstorepos/public/index.php/printreport/98/98/803/heading_id/1/production_center_id/2/sale_article_id/606/course_id/999999">Versione ESCPos</a>
+</li>
+<li>
+<a href="http://localhost/stockstorepos/public/index.php/printreport/99/99/803/heading_id/1/production_center_id/2/sale_article_id/606/course_id/999999">Versione Intelligent</a>
+</li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<?xmlversion = "1.0"?>
+<table name="SST_DATASOURCE_DETAILS" primary_key="ID" unique_fields="DATASOURCE_ID, STATEMENT_ID, ORDER_NUM" ordered_by="DATASOURCE_ID, ORDER_NUM" static_filter="%FILTER_SST_DATASOURCE_DETAILS%">
+<fields>
+<field name="ID"></field>
+<field name="DATASOURCE_ID"></field>
+<field name="STATEMENT_ID"></field>
+<field name="ORDER_NUM"></field>
+<field name="IS_SYSTEM"></field>
+<field name="PARENT_DETAIL_ID"></field>
+</fields>
+<child_tables>
+<table name="SST_DATASOURCE_SUBTOTALS" primary_key="ID" unique_fields="DATASOURCE_DETAIL_ID, ORDER_NUM" ordered_by="DATASOURCE_DETAIL_ID, ORDER_NUM" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="DATASOURCE_DETAIL_ID" parent_field="ID"></field>
+<field name="ORDER_NUM"></field>
+<field name="SUBTOTAL_DESCRIPTION"></field>
+<field name="SUBTOTAL_TITLE"></field>
+<field name="SUBTOTAL_KEY_FIELD"></field>
+<field name="SUBTOTAL_LABEL_FIELD"></field>
+<field name="OPERATIONS"></field>
+<field name="IS_SYSTEM"></field>
+</fields>
+</table>
+</child_tables>
+</table>

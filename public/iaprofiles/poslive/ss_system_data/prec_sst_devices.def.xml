@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<table name="SST_DEVICES" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_DEVICES%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="DEVICE_TYPE"></field>
+<field name="PROTOCOL_TYPE"></field>
+<field name="INPUT_FILE"></field>
+<field name="OUTPUT_FILE"></field>
+<field name="COM_SETTINGS"></field>
+<field name="COMMANDS" external_file="false"></field>
+<field name="EXTERNAL_LIBRARY"></field>
+<field name="READ_BY_COMMAND"></field>
+<field name="AUTO_READ_SECONDS"></field>
+<field name="EXTERNAL_APP"></field>
+<field name="WEB_SERVICE_URL"></field>
+</fields>
+</table>

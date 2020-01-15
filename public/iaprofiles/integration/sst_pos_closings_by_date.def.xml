@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<table name="SST_POS_CLOSINGS" primary_key="ID" unique_fields="POS_ID,OPENING_DATE" ordered_by="ID" static_filter="(accounting_date >= %START_DATE% AND accounting_date <= %END_DATE%) AND (closing_date IS NOT NULL)">
+<fields>
+<field name="ID"></field>
+<field name="OPENING_DATE"></field>
+<field name="ACCOUNTING_DATE"></field>
+<field name="CLOSING_DATE"></field>
+<field name="OPERATOR_ID"></field>
+<field name="POS_ID"></field>
+<field name="CLOSING_TYPE"></field>
+<field name="CLOSING_NUM"></field>
+<field name="TOTAL_AMOUNT"></field>
+<field name="GRAND_TOTAL_AMOUNT"></field>
+<field name="TOTAL_DISCOUNTS"></field>
+<field name="TOTAL_REFUNDS"></field>
+<field name="TOTAL_RECTIFICATIONS"></field>
+<field name="FISCAL_BILLS"></field>
+<field name="NO_FISCAL_BILLS"></field>
+<field name="LAST_SALE_HEADING_ID"></field>
+<field name="PRINTER_CLOSING_NUM"></field>
+<field name="PRINTER_FISCAL_BILLS"></field>
+<field name="PRINTER_NO_FISCAL_BILLS"></field>
+<field name="PRINTER_TOTAL_AMOUNT"></field>
+<field name="PRINTER_TOTAL_DISCOUNTS"></field>
+<field name="PRINTER_TOTAL_REFUNDS"></field>
+<field name="PRINTER_GRAND_TOTAL_AMOUNT"></field>
+<field name="PRINTER_SERIAL_NUM"></field>
+</fields>
+</table>

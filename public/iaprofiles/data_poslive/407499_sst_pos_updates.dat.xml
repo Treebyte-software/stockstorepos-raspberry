@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_POS_UPDATES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="15/12/2017 11:51:08">
+<recordcount>1</recordcount>
+<record ID="29" CODE="001" DESCRIPTION="StockStorePOS 1.6.3.1739" VERSION="1.6.3.1739" ORDER_NUM="10" XML_UPDATE="&lt;update&gt;§§&lt;path value=&quot;https://storage.de1.cloud.ovh.net/v1/AUTH_709726ad778840adbb0597a549c834f5/treebyte/stockstorepos_v163_b1739.zip&quot; /&gt;§§&lt;username value=&quot;&quot; /&gt;§§&lt;password value=&quot;&quot; /&gt;§§&lt;verbose value=&quot;1&quot; /&gt;§§&lt;debug value=&quot;0&quot; /&gt;§§&lt;program_start_at_end value=&quot;stockstorepos.exe&quot; /&gt;§§&lt;exclude_iaprofiles_temp value=&quot;1&quot; /&gt;§§&lt;program value=&quot;&quot; /&gt;§§&lt;number_of_attemps value=&quot;3&quot; /&gt;§§&lt;time_wait value=&quot;5000&quot; /&gt;§§&lt;force_close_pos value=&quot;1&quot; /&gt;§§&lt;programs_to_kill&gt;§§&lt;program_to_kill value=&quot;PosLiveSync.exe&quot; /&gt;§§&lt;/programs_to_kill&gt;§§&lt;/update&gt;" UPDATE_TYPE="1" CREATION_DATE="20171213000000">
+<child_records>
+<table name="SST_POS_UPDATES_LOCATIONS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="133" UPDATE_ID="29" POS_ID="38" LOCATION_NAME="100C01" ENABLED="0" UPDATE_DATE="20171215112714" UPDATED="1"/>
+</table>
+</child_records>
+</record>
+</table>

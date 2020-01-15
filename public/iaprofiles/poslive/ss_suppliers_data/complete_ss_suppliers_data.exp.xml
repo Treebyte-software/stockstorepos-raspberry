@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings multiple="true" enabled="true" log_file="%LOG_PATH%\complete_ss_suppliers_data.log.xml">
+<profiles>
+<profile filename="sst_suppliers_groups.exp.xml" description="Suppliers groups" />
+<profile filename="sst_suppliers.exp.xml" description="Suppliers" />
+</profiles>
+</settings>

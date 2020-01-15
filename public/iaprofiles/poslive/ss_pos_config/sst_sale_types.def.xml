@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<table name="SST_SALE_TYPES" primary_key="ID" unique_fields="CODE" ordered_by="CODE" static_filter="%FILTER_SST_SALE_TYPES%">
+<fields>
+<field name="ID"></field>
+<field name="CODE"></field>
+<field name="DESCRIPTION"></field>
+<field name="VISIBILITY_LEVEL"></field>
+<field name="IS_SYSTEM"></field>
+<field name="ENABLED"></field>
+<field name="TEMPLATE_ID"></field>
+<field name="EXCLUDE_ON_STATISTICS"></field>
+<field name="SALE_TYPE_COUNTER_ID"></field>
+<field name="CUSTOMER_MANDATORY"></field>
+<field name="REF_CUSTOMER_MANDATORY"></field>
+<field name="CAN_TURN_INTO_INVOICE"></field>
+</fields>
+<table name="SST_SALE_TYPE_CONTROLS" primary_key="ID" unique_fields="SALE_TYPE_ID,SALE_CONTROL_ID" ordered_by="ID" deletion_type="parent">
+<fields>
+<field name="ID"></field>
+<field name="SALE_TYPE_ID" parent_field="ID"></field>
+<field name="SALE_CONTROL_ID"></field>
+<field name="ENABLED"></field>
+<field name="POSITIVE_ACTIVITY_ID"></field>
+<field name="NEGATIVE_ACTIVITY_ID"></field>
+</fields>
+</table>
+</table>

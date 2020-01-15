@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_MENUS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="30/03/2018 11:32:46">
+<recordcount>1</recordcount>
+<record ID="59" CODE="DM0012" DESCRIPTION="Coupon Gusto" NOTES="" IS_VALID="1" PRINT_ITEMS="1">
+<child_records>
+<table name="SST_MENUS_VALIDITIES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_MENUS_DETAILS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="529" MENU_ID="59" SALE_ARTICLE_ID="2048"/>
+<record ID="530" MENU_ID="59" SALE_ARTICLE_ID="2049"/>
+<record ID="531" MENU_ID="59" SALE_ARTICLE_ID="2050"/>
+</table>
+</child_records>
+</record>
+</table>

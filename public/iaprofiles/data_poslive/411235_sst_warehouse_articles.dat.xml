@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_WAREHOUSE_ARTICLES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="27/03/2018 19:42:56">
+<recordcount>1</recordcount>
+<record ID="2053" CODE="DM011" DESCRIPTION="Dolce" FASTCODE="" NOTES="" GROUP_A_ID="89" GROUP_B_ID="" GROUP_C_ID="" GROUP_D_ID="" GROUP_E_ID="" BUSINESS_UNIT_ID="" MEAS_UNIT_ID="1" VAT_ID="3" PERISHABLE="0" DAYS_OF_VALIDITY="0" START_AVAIL_DATE="" END_AVAIL_DATE="" REFERENCE_COST="        0.00000" REFERENCE_PRICE="        0.00000" IS_VALID="1" MIN_STOCK="        0.00000" MAX_STOCK="        0.00000" MIN_ORDER="        0.00000" MAX_ORDER="        0.00000" STATE_ID="" REFERENCE_ID="" VARIANT_VALUE_A_ID="" VARIANT_VALUE_B_ID="" VARIANT_VALUE_C_ID="" VARIANT_VALUE_D_ID="" VARIANT_VALUE_E_ID="" VARIANT_VALUE_F_ID="" VARIANT_VALUE_G_ID="" VARIANT_VALUE_H_ID="" VARIANT_VALUE_J_ID="" VARIANT_VALUE_K_ID="" NUTRIENT_ID="" ITEM_WEIGHT="        0.00000" TARE="        0.00000" PRINT_NOTES="" DONT_PRINT="0" DONT_DISCOUNT="0" VAT_B_ID="" VAT_C_ID="" VAT_D_ID="" VAT_E_ID="" ARTICLE_TYPE="2" LAST_UPDATE_DATE="20180327194155" USE_SERIAL_NUMBER="0" USE_LOT="0" USER_FLAG_A="0" USER_FLAG_B="0" USER_FLAG_C="0" USER_FLAG_D="0" USER_FLAG_E="0" IS_SHIPPING_SERVICE="0" CARRIER_ID="" WAYBILL_SERVICE_NUM="" WAYBILL_COUNTER_START="" WAYBILL_COUNTER_END="" CAN_CHANGE_PRICE="0" MAX_PACKAGES_COUNT="1" SHIP_CASH_ON_DELIVERY="0" SHIP_INSURED_SHIPPING="0" SHIP_TIME_DEFINITE="0" SHIP_FLOOR_DELIVERY="0" SHIP_APPTM_DELIVERY="0" SHIP_PROGR_DELIVERY="0" SHIP_EXACTDAY_DELIVERY="0" SHIP_EXPRBOX_DELIVERY="0" DESCRIPTION_TEXT="" DESCRIPTION_URL="" IS_COVER_CHARGE="0">
+<child_records>
+<table name="SST_ARTICLE_MEAS_UNITS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_COUNTRY_DETAIL" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLE_WORKINGS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_BARCODES" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_SALE_ARTICLE_GROUPS_TREE" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+<record ID="134188" ARTICLE_ID="2053" GROUP_IDENTIFIER="1" GROUP_ID="6" GROUP_LEVEL="0"/>
+<record ID="134189" ARTICLE_ID="2053" GROUP_IDENTIFIER="1" GROUP_ID="88" GROUP_LEVEL="1"/>
+<record ID="134190" ARTICLE_ID="2053" GROUP_IDENTIFIER="1" GROUP_ID="89" GROUP_LEVEL="2"/>
+</table>
+<table name="SST_ARTICLE_PROD_CENTERS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+<table name="SST_ARTICLES_LINKING" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="">
+</table>
+</child_records>
+</record>
+</table>

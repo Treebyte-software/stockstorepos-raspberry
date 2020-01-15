@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<table name="SST_IMAGE_LINKS" primary_key="ID" unique_fields="" ordered_by="ID" static_filter="%FILTER_SST_IMAGE_LINKS%">
+<fields>
+<field name="ID"></field>
+<field name="REFERENCE_ID"></field>
+<field name="ARTICLE_ID"></field>
+<field name="SALE_ARTICLE_ID"></field>
+<field name="BASE_LIST_ID"></field>
+<field name="IMAGE_ID"></field>
+</fields>
+</table>

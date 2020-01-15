@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings multiple="true" enabled="true" log_file="%LOG_PATH%\complete_ss_company_data.log.xml">
+<profiles>
+<profile filename="sst_company_types.exp.xml" description="Company types" />
+<profile filename="sst_companies.exp.xml" description="Companies and warehouses" />
+<profile filename="sst_permission_groups.exp.xml" description="Permission groups" />
+<profile filename="sst_operators.exp.xml" description="Operators" />
+</profiles>
+</settings>

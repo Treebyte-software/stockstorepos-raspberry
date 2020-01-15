@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<table name="SST_REPORTS" parameters="" user_code="N/A" user_description="N/A" execution_timestamp="06/12/2017 09:49:52">
+<recordcount>1</recordcount>
+<record ID="122" CODE="3003" DESCRIPTION="Dettaglio Transazioni Non Fiscali" NOTES="Questo report visualizza per negozio, cassa il dettaglio delle transazioni per tipo vendita" CATEGORY_ID="5" DATASOURCE_ID="96" LAYOUT_ID="72" VISIBILITY_LEVEL="7" IS_SYSTEM="0" ENABLED="1" VISIBILITY_BY_MODULE="" SAVING_PATH="" DEFAULT_OPERATION="1" PARENT_REPORT_ID="" NUM_COPIES="1" CHECK_EXPRESSION="" ERROR_MESSAGE="" BEFORE_REPORT_PROC="" AFTER_REPORT_PROC=""/>
+</table>
